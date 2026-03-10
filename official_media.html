@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FHP Ghost Unit | Official Media Gallery</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/pages/gallery.css" />
+</head>
+<body class="page-gallery">
+  <div id="particles-js"></div>
+  <div class="page-wrap">
+    <header>
+      <div class="nav-wrap">
+        <div class="brand">
+          <img src="assets/logo.png" alt="FHP Ghost Unit logo" class="logo" />
+          <span class="eyebrow">FSRP • Ghost Unit</span>
+          <h1>Official Media</h1>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="handbook.html">Handbook</a>
+          <a href="chain-of-command.html">Chain of Command</a>
+          <a href="vehicle-guidelines.html">Vehicle Guidelines</a>
+          <a href="troopers.html">Troopers</a>
+          <a class="active" href="official_media.html">Official Media</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="intro">
+        <h2>Official Media & Gallery</h2>
+        <p>
+          Showcase of official Ghost Unit operations, events, and departmental moments. Latest media featured at the top.
+        </p>
+      </section>
+
+      <!-- Gallery Grid -->
+      <section class="carousel-container" id="carouselContainer">
+        <div class="carousel-wrapper" id="carouselWrapper">
+          <!-- Carousel images will be injected here -->
+        </div>
+        <button class="carousel-prev" id="prevBtn">&#10094;</button>
+        <button class="carousel-next" id="nextBtn">&#10095;</button>
+      </section>
+
+      <!-- Credits Section -->
+
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-text"> <span id="y"></span> FSRP • Florida Highway Patrol Ghost Unit</div>
+        <!-- Admin: discrete, out of the way -->
+        <div class="admin-area admin-area--footer" id="adminArea">
+          <div class="admin-login-wrap" id="adminLoginWrap">
+            <button type="button" class="admin-btn-discrete" id="adminLoginBtn" title="Admin / Mod login">Admin</button>
+            <form id="loginForm" class="login-form hidden">
+              <h3>Login</h3>
+              <div class="form-group">
+                <label for="loginUser">Username</label>
+                <input type="text" id="loginUser" placeholder="Username" required />
+              </div>
+              <div class="form-group">
+                <label for="loginPass">Password</label>
+                <input type="password" id="loginPass" placeholder="Password" required />
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn-submit">Log in</button>
+                <button type="button" id="loginCancel" class="btn-cancel">Cancel</button>
+              </div>
+              <div id="loginStatus" class="upload-status"></div>
+            </form>
+          </div>
+          <div class="admin-panel hidden" id="adminPanel">
+            <span class="admin-panel-user" id="adminPanelUser"></span>
+            <button type="button" class="admin-btn-discrete" id="uploadToggle" title="Upload media">Upload</button>
+            <div id="manageModsWrap" class="manage-mods-wrap hidden">
+              <button type="button" class="admin-btn-discrete" id="manageModsToggle" title="Manage mod accounts">Mods</button>
+              <form id="manageModsForm" class="manage-mods-form hidden">
+                <h3>Create mod account</h3>
+                <div class="form-group">
+                  <label for="modUsername">Username</label>
+                  <input type="text" id="modUsername" placeholder="New mod username" required />
+                </div>
+                <div class="form-group">
+                  <label for="modPassword">Password</label>
+                  <input type="password" id="modPassword" placeholder="Password" required />
+                </div>
+                <div class="form-actions">
+                  <button type="submit" class="btn-submit">Create mod</button>
+                  <button type="button" id="manageModsCancel" class="btn-cancel">Close</button>
+                </div>
+                <div id="manageModsStatus" class="upload-status"></div>
+              </form>
+            </div>
+            <button type="button" class="admin-btn-discrete admin-btn-logout" id="logoutBtn">Out</button>
+          </div>
+        </div>
+        <div class="upload-section upload-footer" id="uploadSection">
+          <form id="uploadForm" class="upload-form hidden">
+            <h3>Upload Media</h3>
+            <div class="form-group">
+              <label for="uploadUser">Username:</label>
+              <input type="text" id="uploadUser" placeholder="Username" required />
+            </div>
+            <div class="form-group">
+              <label for="uploadPass">Password:</label>
+              <input type="password" id="uploadPass" placeholder="Password" required />
+            </div>
+            <div class="form-group">
+              <label for="uploadFile">Image File:</label>
+              <input type="file" id="uploadFile" accept="image/*" required />
+            </div>
+            <div class="form-group">
+              <label for="uploadCaption">Caption:</label>
+              <input type="text" id="uploadCaption" placeholder="Image caption" />
+            </div>
+            <div class="form-group">
+              <label for="uploadCredit">Credit/Photographer:</label>
+              <input type="text" id="uploadCredit" placeholder="Name or attribution" />
+            </div>
+            <div class="form-actions">
+              <button type="submit" class="btn-submit">Upload</button>
+              <button type="button" id="uploadCancel" class="btn-cancel">Cancel</button>
+            </div>
+            <div id="uploadStatus" class="upload-status"></div>
+          </form>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>

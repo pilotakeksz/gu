@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>FHP Ghost Unit — Master Vehicle Guides</title>
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/pages/handbook.css" />
+  <link rel="stylesheet" href="css/pages/vehicle.css" />
+</head>
+<body class="page-handbook">
+  <div id="particles-js"></div>
+  <div class="page-wrap">
+    <header>
+      <div class="nav-wrap">
+        <div class="brand">
+          <img src="assets/logo.png" alt="FHP Ghost Unit logo" class="logo" />
+          <span class="eyebrow">FSRP • Ghost Unit</span>
+          <h1>Official Media</h1>
+        </div>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="handbook.html">Handbook</a>
+          <a href="chain-of-command.html">Chain of Command</a>
+          <a class="active"href="vehicle-guidelines.html">Vehicle Guidelines</a>
+          <a href="troopers.html">Troopers</a>
+          <a href="official_media.html">Official Media</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="wrap">
+      <section class="intro">
+        <span class="tag">MASTER VEHICLE GUIDES</span>
+        <p class="muted" style="margin-top: 6px;">Date of Issue: 10/16/2025 · Last updated: 31/01/2026 · Approved by: GU-001 | saabsterz, GU-003 | G3_DarkFire2, GU-004 | TheTunaInMe</p>
+        <p>This document outlines all approved vehicles, accessories, and lighting configurations by division and rank. <strong>If a customization option is not listed, you may not use it.</strong> Higher ranks may use vehicles allowed for lower ranks in the same division. Accessories not available for a vehicle are not required.</p>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="section" id="vehicle-checker-section">
+        <h3>Vehicle Configuration Checker</h3>
+        <div class="divider"></div>
+        <p class="muted">Select division, rank, vehicle, decal, lightbar, then ensure required additional lighting and accessories are listed. Higher ranks may use vehicles allowed for lower ranks in the same division. If the checker states an accessory is missing / not selected, and it is not available in game, please ignore it.</p>
+
+        <div class="checker-seamless">
+          <div class="checker-header" id="checkerToggle" aria-expanded="true">
+            <h4>Check your configuration</h4>
+            <span class="checker-arrow" id="checkerArrow">▲</span>
+          </div>
+          <div class="checker-body open" id="checkerBody">
+            <div class="checker-grid">
+              <div class="checker-row checker-row--first">
+                <div class="sub-template">
+                  <label for="division">Division</label>
+                  <select id="division">
+                    <option value="">Select Division</option>
+                  </select>
+                </div>
+                <div class="sub-template">
+                  <label for="rank">Rank</label>
+                  <select id="rank">
+                    <option value="">Select Rank</option>
+                  </select>
+                </div>
+                <div class="sub-template">
+                  <label for="vehicle">Vehicle</label>
+                  <select id="vehicle">
+                    <option value="">Select Vehicle</option>
+                  </select>
+                </div>
+                <div class="sub-template">
+                  <label for="decal">Decal</label>
+                  <select id="decal">
+                    <option value="">Select Decal</option>
+                  </select>
+                </div>
+              </div>
+              <div class="checker-row checker-row--second">
+                <div class="sub-template">
+                  <label for="lightbar">Lightbar</label>
+                  <select id="lightbar">
+                    <option value="">Select Lightbar</option>
+                  </select>
+                </div>
+                <div class="sub-template sub-template--wide">
+                  <label>Additional Lighting</label>
+                  <div class="tag-input-container suggestions" id="lightingContainer">
+                    <input type="text" placeholder="Add from list or type..." />
+                    <ul id="lightingSuggestions"></ul>
+                  </div>
+                  <span class="field-hint">Required items must all be present.</span>
+                </div>
+                <div class="sub-template sub-template--wide">
+                  <label>Accessories</label>
+                  <div class="tag-input-container suggestions" id="accessoriesContainer">
+                    <input type="text" placeholder="Add from list or type..." />
+                    <ul id="accessoriesSuggestions"></ul>
+                  </div>
+                  <span class="field-hint">Required mandatory; some optional require another when selected.</span>
+                </div>
+              </div>
+              <div class="checker-row checker-row--antennas">
+                <div class="sub-template sub-template--full">
+                  <label>Antennas</label>
+                  <div id="checkerAntennas" class="checker-antennas-list" aria-live="polite">
+                    <p class="muted">Select division and rank to see allowed antennas and positions.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <p id="checkerResult" class="checker-result"></p>
+          </div>
+        </div>
+      </section>
+
+      <div class="divider"></div>
+
+      <section class="section" id="vehicle-guide">
+        <h3>Division guide</h3>
+        <div class="divider"></div>
+        <p class="muted">Select a division to view its vehicle rules by rank.</p>
+        <div class="vehicle-guide-select-wrap">
+          <label for="guideDivisionSelect" class="vehicle-guide-select-label">Division</label>
+          <select id="guideDivisionSelect" class="vehicle-guide-select" aria-label="Select division to view">
+            <!-- Filled by JS -->
+          </select>
+        </div>
+        <div class="vehicle-guide-content" id="vehicleGuideContent">
+          <!-- Filled by JS from rules.txt -->
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      FSRP • Florida Highway Patrol Ghost Unit
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/vehicle-checker.js"></script>
+</body>
+</html>
