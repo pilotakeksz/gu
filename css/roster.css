@@ -172,6 +172,7 @@
   display: grid;
   gap: 18px;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-items: center;
   width: 100%;
 }
 
@@ -182,6 +183,7 @@
   border: 1px solid var(--border);
   text-align: center;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
+  width: 100%;
 }
 
 .roster-card:hover {
