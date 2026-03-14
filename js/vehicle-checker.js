@@ -134,7 +134,8 @@
           "Chevlon Camion PPV 2018",
           "Bullhorn Prancer Pursuit 2015",
           "Chevlon Antelope 1994",
-          "Chevlon Camion PPV 2008"
+          "Chevlon Camion PPV 2008",
+          "Falcon Interceptor Sedan"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
