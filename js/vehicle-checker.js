@@ -1,10 +1,3 @@
-/**
- * FHP Ghost Unit — Vehicle Configuration Checker
- * MASTER VEHICLE GUIDES — Date of Issue: 10/16/25 | Last updated: 12/12/25 | Approved by: GU-001 | saabsterz
- * SRT One = standard for additional lighting unless otherwise stated.
- * If a customization option is not listed, you may not use it. Black decals for all; HICOM may use White. HR/SHR may request HICOM White Decal permissions.
- */
-
 (function () {
   "use strict";
 
@@ -20,7 +13,8 @@
     SRT: [
       "Probationary Operative+",
       "Operative+",
-      "Senior Operative+"
+      "Senior Operative+",
+      "Head Operative+"
     ],
     Normal: [
       "Low Rank",
@@ -36,44 +30,44 @@
       "Probationary Officer": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit 2015"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Officer First+": {
         ALLOWED_CARS: ["Chevlon Amigo ZLR 2011"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Senior Officer+": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit 2011"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Head Officer+": {
         ALLOWED_CARS: ["Falcon Stallion 350 2015"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Director+": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit Widebody 2020"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "High Command": {
         ALLOWED_CARS: ["Chevlon Corbeta RZR 2014"],
         REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR"],
-        DECALS: ["Black Decal", "White Decal"]
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     },
 
@@ -90,9 +84,11 @@
           "Plate Lights",
           "Fender Lights",
           "Fog Lights",
-          "Small Siderunners"
+          "Small Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR (option", "Low Profile Siren (optional)", "Pushbar"],
         DECALS: ["Black Decal"]
       },
       "Operative+": {
@@ -103,9 +99,11 @@
           "Plate Lights",
           "Fender Lights",
           "Fog Lights",
-          "Small Siderunners"
+          "Small Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "ALPR (option (optional)", "Low Profile Siren (optional)", "Pushbar"],
         DECALS: ["Black Decal"]
       },
       "Senior Operative+": {
@@ -121,9 +119,30 @@
           "Fender Lights",
           "Fog Lights",
           "Small Siderunners",
-          "Siderunners"
+          "Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "Flood Lights", "ALPR"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "Flood Lights", "ALPR (option (optional)", "Low Profile Siren (optional)", "Pushbar"],
+        DECALS: ["Black Decal"]
+      },
+      "Head Operative+": {
+        ALLOWED_CARS: [
+          "2024 Falcon Interceptor Utility"
+        ],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: [
+          "Side Window Lights",
+          "Plate Lights",
+          "Front Bumper Lights",
+          "Fender Lights",
+          "Fog Lights",
+          "Small Siderunners",
+          "Siderunners",
+          "Grill Lights / Grill Lightbar"
+        ],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Trailer Hitch", "LED Spotlights", "Flood Lights", "ALPR (option (optional)", "Low Profile Siren (optional)", "Pushbar"],
         DECALS: ["Black Decal"]
       }
     },
@@ -134,17 +153,17 @@
           "Chevlon Camion PPV 2018",
           "Bullhorn Prancer Pursuit 2015",
           "Chevlon Antelope 1994",
-          "Chevlon Camion PPV 2008",
-          "Falcon Interceptor Sedan"
+          "Chevlon Camion PPV 2008"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
           "Side Window Lights",
           "Plate Lights",
           "Fog Lights",
-          "Small Siderunners"
+          "Small Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR (optional)", "Low Profile Siren (optional)"],
         DECALS: ["Black Decal"]
       },
       SGTP: {
@@ -159,15 +178,18 @@
           "Plate Lights",
           "Fender Lights",
           "Fog Lights",
-          "Siderunners"
+          "Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR (optional)", "Low Profile Siren (optional)"],
         DECALS: ["Black Decal"]
       },
       HR: {
         ALLOWED_CARS: [
           "Chevlon Camion PPV 2021",
-          "Falcon Interceptor Utility 2024"
+          "Falcon Interceptor Utility 2024",
+          "Chevlon Platoro PPV 2019"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
@@ -175,15 +197,16 @@
           "Plate Lights",
           "Fog Lights",
           "Fender Lights",
-          "Siderunners"
+          "Siderunners",
+          "Grill Lights / Grill Lightbar"
         ],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR (optional)", "Low Profile Siren (optional)"],
         DECALS: ["Black Decal"]
       },
       SHR: {
         ALLOWED_CARS: [
           "Bullhorn Prancer Pursuit 2011",
-          "Chevlon Platoro PPV 2019",
           "Falcon Estallion 2024"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
@@ -192,11 +215,12 @@
           "Plate Lights",
           "Fog Lights",
           "Fender Lights",
-          "Grill Lights",
+          "Grill Lights / Grill Lightbar",
           "Siderunners"
         ],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
         OPTIONAL_LIGHTING: ["LED Spotlight (Optional)", "Passenger Spotlight (Optional)"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR (optional)", "Low Profile Siren (optional)"],
         DECALS: ["Black Decal"]
       },
       HICOM: {
@@ -210,25 +234,25 @@
           "Plate Lights",
           "Fog Lights",
           "Fender Lights",
-          "Grill Lights",
+          "Grill Lights / Grill Lightbar",
           "Siderunners"
         ],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
         OPTIONAL_LIGHTING: ["LED Spotlight (Optional)", "Passenger Spotlight (Optional)"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "ALPR"],
-        DECALS: ["Black Decal", "White Decal"]
+        ACCESSORIES: ["Pushbar (Optional)", "Wraparound Bar", "ALPR (optional)", "Low Profile Siren (optional)"],
+        DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     }
   };
 
   const MAIN_LIGHTS = ["Visor Lights", "Legacy Lightbar"];
 
-  /** Guide-only: antennas (with positions), spotlights, texture, notes (not validated by checker) */
   const GUIDE_NOTES = {
     SRT: {
       ANTENNAS: [
-        "5G Antenna – Right (Front Right on ES Falcon Advance+)",
-        "Low Profile Antenna – Front Center",
-        "Long Range Antenna – Rear Center/Trunk Center (Rear on ES Falcon Advance+)"
+        "5G Antenna - Right (Front Right on ES Falcon Advance+)",
+        "Low Profile Antenna - Front Center",
+        "Long Range Antenna - Rear Center/Trunk Center (Rear on ES Falcon Advance+)"
       ],
       SPOTLIGHTS: ["LED Spotlight", "Passenger Spotlight (Optional)"],
       NOTES: ["2011 SWAT Truck: Senior Operative+ when 4+ SRT units available, Chief+ permission."]
@@ -299,7 +323,10 @@
         }
       },
       SPOTLIGHTS: ["LED Spotlight", "Passenger Spotlight (Optional)"],
-      NOTES: ["All ranks: Black Decals only. HR/SHR may request HICOM White Decal permissions. HICOM may use White Decals.", "HICOM: Pushbar (Optional), ALPR (Optional), Spotlights (Optional)."]
+      NOTES: [
+        "All ranks: Black Decals only. HR/SHR may request HICOM White/Grey Decal permissions. HICOM may use White/Grey Decals.",
+        "HICOM: Pushbar (Optional), ALPR (optional) (Optional), Spotlights (Optional)."
+      ]
     }
   };
 
@@ -310,12 +337,13 @@
     "Passenger Spotlight": null
   };
 
-  const OPTIONAL_ACCESSORIES = ["ALPR", "Flood Lights", "Passenger Spotlight", "Grappler"];
+  const OPTIONAL_ACCESSORIES = ["ALPR (optional)", "Flood Lights", "Passenger Spotlight", "Grappler"];
 
-  /**
-   * Allowed cars for a rank: own cars + all lower ranks' cars (higher ranks inherit).
-   * Returns list with this rank's cars first, then inherited in rank order (SHR, HR, SGTP, LR).
-   */
+  function getMainLights(div, rank) {
+    const extra = (div && rank && rulesData[div] && rulesData[div][rank] && rulesData[div][rank].MAIN_LIGHTS_EXTRA) || [];
+    return [...MAIN_LIGHTS, ...extra];
+  }
+
   function getAllowedCars(div, rank) {
     const order = RANK_ORDER[div];
     if (!order || !rulesData[div] || !rulesData[div][rank]) return [];
@@ -329,12 +357,9 @@
     return Array.from(new Set(out));
   }
 
-  /** ---------------- TAG INPUT ---------------- */
-
   function setupTagInput(containerId, optionsGetter) {
     const container = document.getElementById(containerId);
     if (!container) return () => [];
-
     const input = container.querySelector("input");
     const ul = container.querySelector("ul");
     let tags = [];
@@ -348,24 +373,18 @@
         el.textContent = t;
         const x = document.createElement("span");
         x.className = "remove";
-        x.textContent = "×";
-        x.onclick = () => {
-          tags = tags.filter(v => v !== t);
-          refresh();
-          checkConfig();
-        };
+        x.textContent = "x";
+        x.onclick = () => { tags = tags.filter(v => v !== t); refresh(); checkConfig(); };
         el.appendChild(x);
         container.insertBefore(el, input);
       });
     }
 
-    function showSuggestions(val = "") {
+    function showSuggestions(val) {
       if (!ul) return;
       ul.innerHTML = "";
       const opts = (optionsGetter() || []).filter(
-        o =>
-          !tags.includes(o) &&
-          o.toLowerCase().includes((val || "").toLowerCase())
+        o => !tags.includes(o) && o.toLowerCase().includes((val || "").toLowerCase())
       );
       opts.forEach(o => {
         const li = document.createElement("li");
@@ -376,7 +395,7 @@
           input.value = "";
           refresh();
           checkConfig();
-          showSuggestions();
+          showSuggestions("");
         };
         ul.appendChild(li);
       });
@@ -387,25 +406,17 @@
     input.addEventListener("focus", () => showSuggestions(input.value));
     input.addEventListener("keydown", e => {
       if (e.key === "Backspace" && !input.value && tags.length) {
-        tags.pop();
-        refresh();
-        checkConfig();
+        tags.pop(); refresh(); checkConfig();
       }
     });
-
     document.addEventListener("click", e => {
       if (!ul) return;
-      if (justSelected) {
-        justSelected = false;
-        return;
-      }
+      if (justSelected) { justSelected = false; return; }
       if (!container.contains(e.target)) ul.style.display = "none";
     });
 
     return () => tags.slice();
   }
-
-  /** ---------------- SELECTORS (resolved when DOM is ready) ---------------- */
 
   let divisionSelect, rankSelect, vehicleSelect, lightbarSelect, decalSelect, checkerResult;
   let getLighting, getAccessories;
@@ -421,32 +432,26 @@
 
   function bindTagInputs() {
     getLighting = setupTagInput("lightingContainer", () => {
-    if (!divisionSelect || !rankSelect) return [];
-    const div = divisionSelect.value;
-    const rank = rankSelect.value;
-    if (!div || !rank || !rulesData[div] || !rulesData[div][rank]) return [];
-    const data = rulesData[div][rank];
-    return [...(data.LIGHTING || []), ...(data.REAR_LIGHTS || []), ...(data.OPTIONAL_LIGHTING || [])];
-  });
-
-  getAccessories = setupTagInput("accessoriesContainer", () => {
-    if (!divisionSelect || !rankSelect) return [];
-    const div = divisionSelect.value;
-    const rank = rankSelect.value;
-    if (!div || !rank || !rulesData[div] || !rulesData[div][rank]) return [];
-    return rulesData[div][rank].ACCESSORIES || [];
-  });
+      const div = divisionSelect && divisionSelect.value;
+      const rank = rankSelect && rankSelect.value;
+      if (!div || !rank || !rulesData[div] || !rulesData[div][rank]) return [];
+      const data = rulesData[div][rank];
+      return [...(data.LIGHTING || []), ...(data.REAR_LIGHTS || []), ...(data.OPTIONAL_LIGHTING || [])];
+    });
+    getAccessories = setupTagInput("accessoriesContainer", () => {
+      const div = divisionSelect && divisionSelect.value;
+      const rank = rankSelect && rankSelect.value;
+      if (!div || !rank || !rulesData[div] || !rulesData[div][rank]) return [];
+      return rulesData[div][rank].ACCESSORIES || [];
+    });
   }
-
-  /** ---------------- POPULATION ---------------- */
 
   function populateDivisions() {
     if (!divisionSelect) return;
     divisionSelect.innerHTML = "<option value=''>Select Division</option>";
     Object.keys(rulesData).forEach(d => {
       const o = document.createElement("option");
-      o.value = d;
-      o.textContent = d;
+      o.value = d; o.textContent = d;
       divisionSelect.appendChild(o);
     });
   }
@@ -458,11 +463,9 @@
     if (!div) return;
     const order = RANK_ORDER[div];
     const ranks = order ? order.filter(r => rulesData[div][r]) : Object.keys(rulesData[div]);
-    const ranksHighestFirst = ranks.slice().reverse();
-    ranksHighestFirst.forEach(r => {
+    ranks.slice().reverse().forEach(r => {
       const o = document.createElement("option");
-      o.value = r;
-      o.textContent = r;
+      o.value = r; o.textContent = r;
       rankSelect.appendChild(o);
     });
   }
@@ -475,28 +478,31 @@
     if (!div || !rank) return;
     getAllowedCars(div, rank).forEach(v => {
       const o = document.createElement("option");
-      o.value = v;
-      o.textContent = v;
+      o.value = v; o.textContent = v;
       vehicleSelect.appendChild(o);
     });
   }
 
+  function populateLightbarOptions() {
+    if (!lightbarSelect) return;
+    const div = divisionSelect && divisionSelect.value;
+    const rank = rankSelect && rankSelect.value;
+    const options = getMainLights(div, rank);
+    lightbarSelect.innerHTML = "<option value=''>Select Lightbar</option>";
+    options.forEach(l => {
+      const o = document.createElement("option");
+      o.value = l; o.textContent = l;
+      lightbarSelect.appendChild(o);
+    });
+  }
+
   function populateStatic() {
-    if (lightbarSelect) {
-      lightbarSelect.innerHTML = "<option value=''>Select Lightbar</option>";
-      MAIN_LIGHTS.forEach(l => {
-        const o = document.createElement("option");
-        o.value = l;
-        o.textContent = l;
-        lightbarSelect.appendChild(o);
-      });
-    }
+    populateLightbarOptions();
     if (decalSelect) {
       decalSelect.innerHTML = "<option value=''>Select Decal</option>";
-      ["Black Decal", "White Decal"].forEach(d => {
+      ["Black Decal", "White Decal", "Grey Decal"].forEach(d => {
         const o = document.createElement("option");
-        o.value = d;
-        o.textContent = d;
+        o.value = d; o.textContent = d;
         decalSelect.appendChild(o);
       });
     }
@@ -510,32 +516,27 @@
     if (div && rank && rulesData[div] && rulesData[div][rank]) {
       const decals = rulesData[div][rank].DECALS || ["Black Decal"];
       if (decals.includes("White Decal")) options.push("White Decal");
+      if (decals.includes("Grey Decal")) options.push("Grey Decal");
     }
     decalSelect.innerHTML = "<option value=''>Select Decal</option>";
     options.forEach(d => {
       const o = document.createElement("option");
-      o.value = d;
-      o.textContent = d;
+      o.value = d; o.textContent = d;
       decalSelect.appendChild(o);
     });
   }
 
-  /**
-   * Returns antenna sections for the checker: { sections: [ { title, items } ] } or null.
-   */
   function getAntennasForChecker(div, rank) {
     if (!div || !rank || !GUIDE_NOTES[div]) return null;
     const notes = GUIDE_NOTES[div];
     if (div === "Normal" && notes.RANK_ANTENNAS && notes.RANK_ANTENNAS[rank]) {
       const r = notes.RANK_ANTENNAS[rank];
-      if (r.ANTENNAS) {
-        return { sections: [{ title: "Antennas (positions)", items: r.ANTENNAS }] };
-      }
+      if (r.ANTENNAS) return { sections: [{ title: "Antennas (positions)", items: r.ANTENNAS }] };
       if (r.ANTENNAS_SEDAN && r.ANTENNAS_SUV) {
         return {
           sections: [
-            { title: "Antennas – Sedan (positions)", items: r.ANTENNAS_SEDAN },
-            { title: "Antennas – SUV (positions)", items: r.ANTENNAS_SUV }
+            { title: "Antennas - Sedan (positions)", items: r.ANTENNAS_SEDAN },
+            { title: "Antennas - SUV (positions)", items: r.ANTENNAS_SUV }
           ]
         };
       }
@@ -576,21 +577,17 @@
     });
   }
 
-  /** ---------------- CHECKER ---------------- */
-
   function getData() {
-    if (!divisionSelect || !rankSelect) return null;
-    const div = divisionSelect.value;
-    const rank = rankSelect.value;
+    const div = divisionSelect && divisionSelect.value;
+    const rank = rankSelect && rankSelect.value;
     if (!div || !rank || !rulesData[div] || !rulesData[div][rank]) return null;
     return rulesData[div][rank];
   }
 
   function checkConfig() {
     if (!checkerResult) return;
-    if (!divisionSelect || !rankSelect) return;
-    const div = divisionSelect.value;
-    const rank = rankSelect.value;
+    const div = divisionSelect && divisionSelect.value;
+    const rank = rankSelect && rankSelect.value;
     const vehicle = vehicleSelect ? vehicleSelect.value : "";
     const lightbar = lightbarSelect ? lightbarSelect.value : "";
     const decal = decalSelect ? decalSelect.value : "";
@@ -613,8 +610,9 @@
       errors.push(`Vehicle "${vehicle}" not allowed for this rank.`);
     }
 
-    if (lightbar && !MAIN_LIGHTS.includes(lightbar)) {
-      errors.push(`Lightbar "${lightbar}" not allowed.`);
+    const allowedMainLights = getMainLights(div, rank);
+    if (lightbar && !allowedMainLights.includes(lightbar)) {
+      errors.push(`Lightbar "${lightbar}" not allowed for this rank.`);
     }
 
     if (decal) {
@@ -624,9 +622,7 @@
       }
     }
 
-    const requiredAccessories = (data.ACCESSORIES || []).filter(
-      a => !OPTIONAL_ACCESSORIES.includes(a)
-    );
+    const requiredAccessories = (data.ACCESSORIES || []).filter(a => !OPTIONAL_ACCESSORIES.includes(a));
     requiredAccessories.forEach(a => {
       if (!accessories.includes(a)) errors.push(`Required accessory missing: ${a}.`);
     });
@@ -639,26 +635,24 @@
       }
     });
 
-    const allowedLighting = [...(data.LIGHTING || []), ...(data.REAR_LIGHTS || []), ...MAIN_LIGHTS, ...(data.OPTIONAL_LIGHTING || [])];
+    const allowedLighting = [
+      ...(data.LIGHTING || []),
+      ...(data.REAR_LIGHTS || []),
+      ...allowedMainLights,
+      ...(data.OPTIONAL_LIGHTING || [])
+    ];
     const requiredLighting = [...(data.LIGHTING || []), ...(data.REAR_LIGHTS || [])];
     requiredLighting.forEach(l => {
       if (!lighting.includes(l)) errors.push(`Required lighting missing: ${l}.`);
     });
     lighting.forEach(l => {
-      if (!allowedLighting.includes(l)) {
-        errors.push(`Lighting "${l}" not permitted.`);
-      }
+      if (!allowedLighting.includes(l)) errors.push(`Lighting "${l}" not permitted.`);
     });
 
-    if (checkerResult) {
-      checkerResult.textContent =
-        errors.length > 0 ? errors.join(" ") : "Configuration approved.";
-      checkerResult.classList.toggle("error", errors.length > 0);
-      checkerResult.classList.toggle("ok", errors.length === 0);
-    }
+    checkerResult.textContent = errors.length > 0 ? errors.join(" ") : "Configuration approved.";
+    checkerResult.classList.toggle("error", errors.length > 0);
+    checkerResult.classList.toggle("ok", errors.length === 0);
   }
-
-  /** ---------------- DIVISION GUIDE (guide-only: antennas, spotlights, texture, notes) ---------------- */
 
   function buildVehicleGuide() {
     const content = document.getElementById("vehicleGuideContent");
@@ -684,9 +678,7 @@
       content.innerHTML = "";
       if (!div || !rulesData[div]) return;
       const section = document.createElement("div");
-      const visibleClass = "vehicle-guide-section--visible";
-      const divClass = "vehicle-guide-section--" + div.toLowerCase();
-      section.className = "vehicle-guide-section " + visibleClass + " " + divClass;
+      section.className = "vehicle-guide-section vehicle-guide-section--visible vehicle-guide-section--" + div.toLowerCase();
       const h3 = document.createElement("h3");
       h3.textContent = div;
       section.appendChild(h3);
@@ -695,8 +687,7 @@
       ranksWrapper.className = "vehicle-guide-ranks";
       const order = RANK_ORDER[div];
       const ranks = order ? order.filter(r => rulesData[div][r]) : Object.keys(rulesData[div]);
-      const ranksHighestFirst = ranks.slice().reverse();
-      ranksHighestFirst.forEach(rank => {
+      ranks.slice().reverse().forEach(rank => {
         const data = rulesData[div][rank];
         const block = document.createElement("div");
         block.className = "vehicle-guide-rank";
@@ -705,7 +696,7 @@
         block.appendChild(h4);
 
         addList(block, "Vehicles", getAllowedCars(div, rank));
-        addList(block, "Main Light Options", MAIN_LIGHTS);
+        addList(block, "Main Light Options", getMainLights(div, rank));
         addList(block, "Rear Light Options", data.REAR_LIGHTS);
         addList(block, "Additional Lighting", data.LIGHTING);
         if (data.OPTIONAL_LIGHTING && data.OPTIONAL_LIGHTING.length) {
@@ -716,21 +707,17 @@
 
         const rankNotes = div === "Normal" && GUIDE_NOTES.Normal && GUIDE_NOTES.Normal.RANK_ANTENNAS && GUIDE_NOTES.Normal.RANK_ANTENNAS[rank];
         if (rankNotes) {
-          if (rankNotes.ANTENNAS) {
-            addList(block, "Antennas (positions)", rankNotes.ANTENNAS);
-          }
+          if (rankNotes.ANTENNAS) addList(block, "Antennas (positions)", rankNotes.ANTENNAS);
           if (rankNotes.ANTENNAS_SEDAN) {
-            addList(block, "Antennas – Sedan (positions)", rankNotes.ANTENNAS_SEDAN);
-            addList(block, "Antennas – SUV (positions)", rankNotes.ANTENNAS_SUV);
+            addList(block, "Antennas - Sedan (positions)", rankNotes.ANTENNAS_SEDAN);
+            addList(block, "Antennas - SUV (positions)", rankNotes.ANTENNAS_SUV);
           }
         } else if (GUIDE_NOTES[div] && GUIDE_NOTES[div].ANTENNAS) {
           addList(block, "Antennas (positions)", GUIDE_NOTES[div].ANTENNAS);
         }
 
         const spotlights = GUIDE_NOTES[div] && GUIDE_NOTES[div].SPOTLIGHTS;
-        if (spotlights && spotlights.length) {
-          addList(block, "Spotlights", spotlights);
-        }
+        if (spotlights && spotlights.length) addList(block, "Spotlights", spotlights);
 
         ranksWrapper.appendChild(block);
       });
@@ -770,23 +757,16 @@
 
     if (guideSelect) {
       guideSelect.innerHTML = "<option value=''>Select Division</option>";
-      const divisions = Object.keys(rulesData);
-      divisions.forEach(d => {
+      Object.keys(rulesData).forEach(d => {
         const o = document.createElement("option");
-        o.value = d;
-        o.textContent = d;
+        o.value = d; o.textContent = d;
         guideSelect.appendChild(o);
       });
       guideSelect.addEventListener("change", () => render(guideSelect.value));
-      const firstDiv = divisions[0];
-      if (firstDiv) {
-        guideSelect.value = firstDiv;
-        render(firstDiv);
-      }
+      const firstDiv = Object.keys(rulesData)[0];
+      if (firstDiv) { guideSelect.value = firstDiv; render(firstDiv); }
     }
   }
-
-  /** ---------------- INIT (run when DOM is ready) ---------------- */
 
   function runInit() {
     bindElements();
@@ -813,6 +793,7 @@
     divisionSelect.addEventListener("change", () => {
       populateRanks();
       populateVehicleOptions();
+      populateLightbarOptions();
       updateDecalOptions();
       updateCheckerAntennas();
       checkConfig();
@@ -820,6 +801,7 @@
 
     rankSelect.addEventListener("change", () => {
       populateVehicleOptions();
+      populateLightbarOptions();
       updateDecalOptions();
       updateCheckerAntennas();
       checkConfig();
