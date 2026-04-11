@@ -29,44 +29,50 @@
     HSPU: {
       "Probationary Officer": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit 2015"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
         ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Officer First+": {
         ALLOWED_CARS: ["Chevlon Amigo ZLR 2011"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
         ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
         DECALS: ["Black Decal"]
       },
       "Senior Officer+": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit 2011"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
         DECALS: ["Black Decal"]
       },
       "Head Officer+": {
         ALLOWED_CARS: ["Falcon Stallion 350 2015"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
         DECALS: ["Black Decal"]
       },
       "Director+": {
         ALLOWED_CARS: ["Bullhorn Prancer Pursuit Widebody 2020"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
         DECALS: ["Black Decal"]
       },
       "High Command": {
         ALLOWED_CARS: ["Chevlon Corbeta RZR 2014"],
-        REAR_LIGHTS: ["Rear Window Lights"],
-        LIGHTING: ["Side Window Lights", "Plate Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        REAR_LIGHTS: ["Rear Light Stick"],
+        LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
+        MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
         DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     },
@@ -159,6 +165,7 @@
         LIGHTING: [
           "Side Window Lights",
           "Plate Lights",
+          "Fender Lights",
           "Fog Lights",
           "Small Siderunners",
           "Grill Lights / Grill Lightbar"
