@@ -159,7 +159,8 @@
           "Chevlon Camion PPV 2018",
           "Bullhorn Prancer Pursuit 2015",
           "Chevlon Antelope 1994",
-          "Chevlon Camion PPV 2008"
+          "Chevlon Camion PPV 2008",
+          "Falcon Interceptor Sedan 2017"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
@@ -177,7 +178,8 @@
         ALLOWED_CARS: [
           "Bullhorn Pueblo Pursuit 2020",
           "Falcon Interceptor Utility 2019",
-          "Falcon Interceptor Utility 2013"
+          "Falcon Interceptor Utility 2013",
+          "Falcon Advance 350 2020"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
@@ -196,7 +198,8 @@
         ALLOWED_CARS: [
           "Chevlon Camion PPV 2021",
           "Falcon Interceptor Utility 2024",
-          "Chevlon Platoro PPV 2019"
+          "Chevlon Platoro PPV 2019",
+          "Falcon Traveller PPV 2022"
         ],
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: [
