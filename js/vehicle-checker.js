@@ -32,7 +32,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "Reverse Flashers"],
         DECALS: ["Black Decal"]
       },
       "Officer First+": {
@@ -40,7 +40,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "Reverse Flashers"],
         DECALS: ["Black Decal"]
       },
       "Senior Officer+": {
@@ -48,7 +48,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights", "Reverse Flashers"],
         DECALS: ["Black Decal"]
       },
       "Head Officer+": {
@@ -56,7 +56,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights", "Reverse Flashers"],
         DECALS: ["Black Decal"]
       },
       "Director+": {
@@ -64,7 +64,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights", "Reverse Flashers"],
         DECALS: ["Black Decal"]
       },
       "High Command": {
@@ -72,7 +72,7 @@
         REAR_LIGHTS: ["Rear Light Stick"],
         LIGHTING: ["Side Window Lights", "Plate Lights", "Front Bumper Lights", "Fender Lights", "Fog Lights", "Small Siderunners", "Siderunners", "Grill Lights / Grill Lightbar"],
         MAIN_LIGHTS_EXTRA: ["Valor Lightbar"],
-        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights"],
+        ACCESSORIES: ["Pushbar", "Wraparound Bar", "Grappler", "ALPR (optional)", "LED Spotlights", "Flood Lights", "Reverse Flashers"],
         DECALS: ["Black Decal", "White Decal", "Grey Decal"]
       }
     },
