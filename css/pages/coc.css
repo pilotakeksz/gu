@@ -8,11 +8,17 @@
 
 .rank {
   background: var(--surface);
-  border-radius: 16px;
-  padding: 18px;
+  border-radius: var(--radius-md);
+  padding: 20px;
   border: 1px solid var(--border);
   display: grid;
-  gap: 6px;
+  gap: 8px;
+  backdrop-filter: blur(8px);
+  transition: border-color var(--transition);
+}
+
+.rank:hover {
+  border-color: var(--border-strong);
 }
 
 .rank h2 {
@@ -28,27 +34,32 @@
 
 /* High Command with gradient background */
 .rank-hicom {
-  background: linear-gradient(135deg, rgba(255, 107, 107, 0.08), rgba(84, 160, 255, 0.08));
+  background: linear-gradient(135deg, var(--accent-glow), rgba(224, 85, 85, 0.06));
+  border-color: var(--accent-border);
 }
 
 /* Senior High Rank with single color background */
 .rank-shr {
-  background: rgba(245, 216, 78, 0.08);
+  background: linear-gradient(135deg, var(--accent-glow), rgba(224, 85, 85, 0.06));
+  border-color: var(--accent-border);
 }
 
 /* High Rank with single color background */
 .rank-hr {
-  background: rgba(245, 178, 78, 0.08);
+  background: linear-gradient(135deg, var(--accent-glow), rgba(224, 85, 85, 0.06));
+  border-color: var(--accent-border);
 }
 
 /* Sergeant Program with single color background */
 .rank-sp {
-  background: rgba(150, 160, 200, 0.08);
+   background: linear-gradient(135deg, var(--accent-glow), rgba(224, 85, 85, 0.06));
+  border-color: var(--accent-border);
 }
 
 /* Low Rank with single color background */
 .rank-lr {
-  background: rgba(200, 168, 78, 0.08);
+  background: linear-gradient(135deg, var(--accent-glow), rgba(224, 85, 85, 0.06));
+  border-color: var(--accent-border);
 }
 
 /* Rank badges - color only as wide as text */
@@ -74,49 +85,49 @@
 
 /* High Command gradient badges */
 .rank-badge-1 .rank-text {
-  background: linear-gradient(135deg, #09abc2,  #0962a7);
+  background: linear-gradient(135deg, #0f457a,  #6bdbff);
 }
 
 .rank-badge-2 .rank-text {
-  background: linear-gradient(135deg, #09abc2,  #0962a7);
+  background: linear-gradient(135deg, #0d3c6c,  #28baf4);
 }
 
 .rank-badge-3 .rank-text {
-  background: linear-gradient(135deg, #072b4e, #0d4b89);
+  background: linear-gradient(135deg, #0c3868, #1eace8);
 }
 
 .rank-badge-4 .rank-text {
-  background: linear-gradient(135deg, #072b4e, #0d4b89);
+  background: linear-gradient(135deg, #0c3868, #1eace8);
 }
 
 .rank-badge-5 .rank-text {
-  background: linear-gradient(135deg, #222751, #2b3ccf);
+  background: linear-gradient(135deg, #0c3464, #1e9ed8);
 }
 
 .rank-badge-6 .rank-text {
-  background: linear-gradient(135deg, #365b74, #77aed3);
+  background: linear-gradient(135deg, #0c3060, #1e90c8);
 }
 
 /* Senior High Rank single color badge */
 .rank-badge-shr .rank-text {
-  background: #f5d84e;
-  color: #1a1a1a;
+  background: linear-gradient(135deg, #0f3070, #3278d4);
+  color: #fff;
 }
 /* High Rank */
 .rank-badge-hr .rank-text {
-  background: #f5b24e;
-  color: #1a1a1a;
+  background: linear-gradient(135deg, #102a52, #3666a8);
+  color: #fff;
 }
 
 /* Sergeant Program badge */
 .rank-badge-sp .rank-text {
-  background: #d4865f;
+  background: linear-gradient(135deg, #38404e, #7a8896);
   color: #ffffff;
 }
 
 /* Low Rank badge */
 .rank-badge-lr .rank-text {
-  background: #d4865f;
+  background: #3a404a;
   color: #ffffff;
 }
 

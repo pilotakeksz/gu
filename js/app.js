@@ -68,21 +68,21 @@
     if (!el) return;
     window.particlesJS("particles-js", {
       particles: {
-        number: { value: 60, density: { enable: true, value_area: 800 } },
-        color: { value: "#e8a838" },
+        number: { value: 50, density: { enable: true, value_area: 900 } },
+        color: { value: ["#5b9cff", "#e4b44d", "#3a7fd4"] },
         shape: { type: "circle" },
-        opacity: { value: 0.35, random: true },
-        size: { value: 2.5, random: true },
+        opacity: { value: 0.28, random: true },
+        size: { value: 2, random: true },
         line_linked: {
           enable: true,
-          distance: 140,
-          color: "#c49a6c",
-          opacity: 0.2,
+          distance: 130,
+          color: "#5b9cff",
+          opacity: 0.12,
           width: 1
         },
         move: {
           enable: true,
-          speed: 1.2,
+          speed: 0.8,
           direction: "none",
           random: true,
           out_mode: "out"

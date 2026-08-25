@@ -145,19 +145,20 @@
 
 .btn-upload {
   padding: 12px 24px;
-  background: linear-gradient(135deg, rgba(95, 176, 255, 0.2), rgba(95, 176, 255, 0.1));
-  border: 1px solid rgba(95, 176, 255, 0.3);
+  background: var(--accent-glow);
+  border: 1px solid var(--accent-border);
   color: var(--accent);
-  border-radius: 8px;
+  border-radius: var(--radius-sm);
   cursor: pointer;
   font-weight: 600;
   font-size: 14px;
-  transition: all 0.3s ease;
+  transition: all var(--transition);
 }
 
 .btn-upload:hover {
-  background: linear-gradient(135deg, rgba(95, 176, 255, 0.3), rgba(95, 176, 255, 0.15));
-  border-color: rgba(95, 176, 255, 0.5);
+  background: rgba(91, 156, 255, 0.18);
+  border-color: var(--accent);
+  transform: translateY(-1px);
 }
 
 /* Upload Form - Modal style, centered on page */
@@ -272,8 +273,8 @@
 .form-group input:focus {
   outline: none;
   background: rgba(0, 0, 0, 0.3);
-  border-color: rgba(95, 176, 255, 0.4);
-  box-shadow: 0 0 8px rgba(95, 176, 255, 0.15);
+  border-color: var(--accent-border);
+  box-shadow: 0 0 0 3px var(--accent-glow);
 }
 
 .form-group input::placeholder {
@@ -299,14 +300,14 @@
 }
 
 .btn-submit {
-  background: linear-gradient(135deg, rgba(95, 176, 255, 0.4), rgba(95, 176, 255, 0.2));
+  background: linear-gradient(135deg, rgba(91, 156, 255, 0.35), rgba(91, 156, 255, 0.15));
   color: var(--text);
-  border: 1px solid rgba(95, 176, 255, 0.3);
+  border: 1px solid var(--accent-border);
 }
 
 .btn-submit:hover {
-  background: linear-gradient(135deg, rgba(95, 176, 255, 0.5), rgba(95, 176, 255, 0.3));
-  border-color: rgba(95, 176, 255, 0.5);
+  background: linear-gradient(135deg, rgba(91, 156, 255, 0.45), rgba(91, 156, 255, 0.25));
+  border-color: var(--accent);
 }
 
 .btn-cancel {
@@ -390,8 +391,8 @@
 
 .gallery-item:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow);
-  border-color: rgba(95, 176, 255, 0.22);
+  box-shadow: var(--shadow-glow);
+  border-color: var(--accent-border);
 }
 
 .gallery-item img {
@@ -535,8 +536,8 @@
 .credit-item {
   padding: 12px;
   background: rgba(0, 0, 0, 0.2);
-  border-radius: 8px;
-  border-left: 3px solid rgba(95, 176, 255, 0.3);
+  border-radius: var(--radius-sm);
+  border-left: 3px solid var(--accent-border);
 }
 
 .credit-item .name {

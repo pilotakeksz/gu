@@ -15,9 +15,23 @@
     .form-wrapper {
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 18px;
-      padding: 30px;
+      border-radius: var(--radius-lg);
+      padding: 32px;
       box-shadow: var(--shadow);
+      backdrop-filter: blur(12px);
+      position: relative;
+      overflow: hidden;
+    }
+
+    .form-wrapper::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, var(--srt), var(--accent));
+      opacity: 0.6;
     }
     
     .form-wrapper h2 {
