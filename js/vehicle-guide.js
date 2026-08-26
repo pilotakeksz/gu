@@ -1145,18 +1145,27 @@
       .replace(/^-+|-+$/g, "");
 
     var lrSection = getSection("LR");
-    var isInheritedLrVehicle = homeSectionId !== "LR" && lrSection && lrSection.cars && lrSection.cars.some(function (car) {
+    var isLrVehicle = lrSection && lrSection.cars && lrSection.cars.some(function (car) {
       return car && car.name === carName;
     });
 
-    if (homeSectionId === "LR" || isInheritedLrVehicle) {
+    if (isLrVehicle) {
       var higher = viewSectionId !== "LR";
       return {
         dir: "assets/views/LR/" + slug + (higher ? "-higher" : ""),
         variant: higher ? "Higher Rank" : "Low Rank"
       };
     }
-    return { dir: "assets/views/" + homeSectionId + "/" + slug, variant: homeSectionId };
+
+    var storageSection = RANK_SECTIONS.slice().sort(function (a, b) {
+      return a.order - b.order;
+    }).filter(function (section) {
+      return section.cars.some(function (car) {
+        return car && car.name === carName;
+      });
+    })[0];
+    var sectionId = storageSection ? storageSection.id : homeSectionId;
+    return { dir: "assets/views/" + sectionId + "/" + slug, variant: sectionId };
   }
 
   /* =================== RENDER HELPERS =================== */
