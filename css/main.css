@@ -4,25 +4,25 @@
 :root {
   --bg: #05070c;
   --bg-elevated: #0a0e16;
-  --surface: rgba(12, 16, 26, 0.75);
-  --surface-2: rgba(18, 24, 38, 0.9);
+  --surface: rgba(12, 16, 26, 0.92);
+  --surface-2: rgba(18, 24, 38, 0.98);
   --surface-solid: #101620;
   --surface-solid-2: #161e2e;
   --text: #eef1f6;
-  --muted: #8d97ab;
-  --accent: #5b9cff;
-  --accent-2: #3a7fd4;
-  --accent-gold: #e4b44d;
-  --accent-gold-dim: rgba(228, 180, 77, 0.14);
-  --accent-glow: rgba(91, 156, 255, 0.1);
-  --accent-border: rgba(91, 156, 255, 0.28);
+  --muted: #b7c1d2;
+  --accent: #78b6ff;
+  --accent-2: #4d9bea;
+  --accent-gold: #ffd15c;
+  --accent-gold-dim: rgba(255, 209, 92, 0.2);
+  --accent-glow: rgba(120, 182, 255, 0.18);
+  --accent-border: rgba(120, 182, 255, 0.48);
   --hspu: #4a90e2;
-  --hspu-bg: rgba(74, 144, 226, 0.18);
+  --hspu-bg: rgba(126, 184, 218, 0.65);
   --srt: #e05555;
-  --srt-bg: rgba(224, 85, 85, 0.18);
+  --srt-bg: rgba(230, 120, 120, 0.65);
   --nav-height: 80px;
-  --border: rgba(255, 255, 255, 0.07);
-  --border-strong: rgba(255, 255, 255, 0.11);
+  --border: rgba(255, 255, 255, 0.15);
+  --border-strong: rgba(255, 255, 255, 0.24);
   --shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
   --shadow-glow: 0 16px 48px rgba(91, 156, 255, 0.07);
   --radius-sm: 10px;
@@ -72,7 +72,14 @@ body::before {
   height: 100%;
   z-index: 0;
   pointer-events: none;
-  opacity: 0.85;
+  opacity: 1;
+}
+
+#particles-js canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  filter: drop-shadow(0 0 3px rgba(91, 156, 255, 0.35));
 }
 
 .page-wrap {
