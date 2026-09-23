@@ -8,39 +8,16 @@
   <link rel="stylesheet" href="css/roster.css" />
   <style>
     .specialties {
-      padding: 3px 8px;
-      border-radius: var(--radius-sm);
-      display: inline-block;
-      font-size: 0.85em;
-      font-weight: 800;
-      color: #fff;
-      text-align: center;
-      letter-spacing: 0.04em;
-      text-shadow: 0 1px 3px rgba(0, 0, 0, 0.7);
+      padding: 2px 6px; border-radius: 4px; display: inline-block;
+      font-size: 0.9em; font-weight: bold; color: #fff; text-align: center;
     }
-    .leadership-card .specialties,
-    .roster-card .specialties {
-      font-size: 11px;
-      font-weight: 700;
+    .specialties--hspu { background-color: rgba(111,148,187,1); }
+    .specialties--srt  { background-color: rgba(186,101,115,1); }
+    @keyframes fadeBlueRed {
+      0%   { background-color: rgba(111,148,187,1); }
+      100% { background-color: rgba(186,101,115,1); }
     }
-    .specialties--hspu {
-      background: var(--hspu-bg);
-      border: 1px solid rgba(74, 144, 226, 0.4);
-    }
-    .specialties--srt {
-      background: var(--srt-bg);
-      border: 1px solid rgba(224, 85, 85, 0.4);
-    }
-    .specialties--both {
-      background: linear-gradient(90deg, #7eb8da 0%, #b995b8 50%, #e67878 100%);
-      border: 1px solid rgba(255, 255, 255, 0.42);
-    }
-    .specialties--jsoc {
-      background: #c99b24;
-      border: 1px solid #e3c15a;
-      color: #1a1400;
-      text-shadow: none;
-    }
+    .specialties--both { animation: fadeBlueRed 3s infinite alternate; }
   </style>
 </head>
 <body>
@@ -72,19 +49,18 @@
           <h3 class="rank-title">High Command</h3>
           <div class="leadership-row">
             <div class="leadership-card">
-              <img src="assets/avatars/thetunainme.png" alt="Tuna" class="avatar" />
+              <img src="assets/avatars/840949634071658507.png" alt="Tuna" class="avatar" />
               <p class="name">Tuna</p>
               <p class="rank">Commissioner</p>
               <p class="callsign">𝒢𝒰-001</p>
               <p class="specialties specialties--both">HSPU • SRT</p>
-              <p class="specialties specialties--jsoc">JSOC</p>
             </div>
             <div class="leadership-card">
-              <img src="assets/avatars/vigoprosniper.png" alt="vigoprosniper" class="avatar" />
+              <img src="assets/avatars/807631247886123008.png" alt="vigoprosniper" class="avatar" />
               <p class="name">vigoprosniper</p>
               <p class="rank">Deputy Commissioner</p>
               <p class="callsign">𝒢𝒰-002</p>
-              <p class="specialties specialties--jsoc">JSOC</p>
+              
             </div>
             <div class="leadership-card">
               <img src="assets/avatars/Ilcolega02.png" alt="Ilcolega02" class="avatar" />
@@ -92,7 +68,6 @@
               <p class="rank">Assistant Commissioner First</p>
               <p class="callsign">𝒢𝒰-003</p>
               <p class="specialties specialties--both">HSPU • SRT</p>
-              <p class="specialties specialties--jsoc">JSOC</p>
             </div>
             <div class="leadership-card">
               <img src="assets/avatars/InvasionElectro.png" alt="InvasionElectro" class="avatar" />
@@ -100,15 +75,13 @@
               <p class="rank">Assistant Commissioner Second</p>
               <p class="callsign">𝒢𝒰-004</p>
               <p class="specialties specialties--both">HSPU • SRT</p>
-              <p class="specialties specialties--jsoc">JSOC</p>
             </div>
             <div class="leadership-card">
-              <img src="assets/avatars/maullru.png" alt="Maullru2011" class="avatar" />
+              <img src="assets/avatars/Maullru2011.png" alt="Maullru2011" class="avatar" />
               <p class="name">Maullru2011</p>
               <p class="rank">District Commander</p>
               <p class="callsign">𝒢𝒰-006</p>
               <p class="specialties specialties--both">HSPU • SRT</p>
-              <p class="specialties specialties--jsoc">JSOC</p>
             </div>
           </div>
         </div>
@@ -169,13 +142,6 @@
         <div class="rank-section roster-tier--hr">
           <h3 class="rank-title">High Rank</h3>
           <div class="roster-grid">
-            <div class="roster-card">
-              <img src="assets/avatars/1507054904.png" alt="2010rodik" class="avatar" />
-              <p class="name">2010rodik</p>
-              <p class="rank">Captain</p>
-              <p class="callsign">GU-020</p>
-              <p class="specialties specialties--srt">SRT</p>
-            </div>
             <div class="roster-card">
               <img src="assets/avatars/3693251757.png" alt="777bestofall" class="avatar" />
               <p class="name">777bestofall</p>
