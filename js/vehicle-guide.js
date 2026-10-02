@@ -834,9 +834,9 @@
           name: "Falcon Advance XET 2022",
           cls: "Pickup Truck",
           lightbar: "Visor Lights / Legacy Lightbar / Valor Lightbar",
-          requiredLighting: ["Rear Light Stick", "Grille Lights 1", "Grille Lights 2", "Plate Lights", "Side Window Lights", "Siderunners"],
+          requiredLighting: ["Rear Light Stick", "Grille Lights 1", "Pushbar Lights 1","Grille Lights 2", "Plate Lights", "Side Window Lights", "Siderunners"],
           optionalLighting: [],
-          requiredAccessories: ["Pushbar", "Wraparound Bar", "LED Spotlight"],
+          requiredAccessories: ["Pushbar","Pushbar Floodlight", "Wraparound Bar", "LED Spotlight"],
           optionalAccessories: ["ALPR (Optional)", "Trailer Hitch (Optional)", "Low Profile Siren 1 / 2 (Optional)", "Passenger Spotlight (Optional)", "Laptop (Optional)", "Cage (Optional)","Bed Cover (Optional)","Toolbox (Optional)"],
           decals: ["Black Decal"],
           antennas: ["5G Antenna (Right)", "Long Range Antenna (Center)", "Low Profile Antenna (Front Center)"]
@@ -1094,10 +1094,12 @@
           antennas: ["N/A"]
         },
         {
-          name: "Boat (Placeholder)",
+          name: "Boat",
           cls: "Boat",
           placeholder: true,
-          showWarning: true
+          decals: ["Black Decal"],
+          showWarning: true,
+          showGallery: true
         }
       ]
     }
@@ -1254,7 +1256,7 @@
 
     var card = el("div", "vg-detail-card");
     if (match.car.showWarning) {
-      card.appendChild(el("div", "vg-warning-label", "WARNING"));
+      card.appendChild(el("div", "vg-warning-label", "WARNING - Requires Certification"));
     }
     var head = el("div", "vg-detail-head");
     head.appendChild(el("h4", "vg-detail-title", data.name));
@@ -1262,63 +1264,72 @@
     head.appendChild(el("span", "vg-detail-tier", "Assigned at " + match.section.title));
     card.appendChild(head);
 
-    if (match.car.placeholder) {
+    if (match.car.placeholder && !match.car.showGallery) {
       box.appendChild(card);
       goToStep(4);
       box.scrollIntoView({ behavior: "smooth", block: "start" });
       return;
     }
 
-    card.appendChild(el("h5", "vg-block-title", "Lightbar / Main Lights"));
-    card.appendChild(el("p", "vg-block-line", data.lightbar));
+    if (!match.car.placeholder) {
+      card.appendChild(el("h5", "vg-block-title", "Lightbar / Main Lights"));
+      card.appendChild(el("p", "vg-block-line", data.lightbar));
 
-    function block(label, items) {
-      if (!items || !items.length) return;
-      var b = el("div", "vg-block");
-      b.appendChild(el("h5", "vg-block-title", label));
-      var listEl = el("ul", "vg-block-list");
-      items.forEach(function (it) {
-        var li = el("li", "vg-block-item");
-        if (/(optional)/i.test(it)) {
-          li.appendChild(el("span", "vg-li-label", it));
-          li.appendChild(el("span", "vg-li-note", "Optional"));
-        } else {
-          li.textContent = it;
-        }
-        listEl.appendChild(li);
-      });
-      b.appendChild(listEl);
-      card.appendChild(b);
-    }
+      function block(label, items) {
+        if (!items || !items.length) return;
+        var b = el("div", "vg-block");
+        b.appendChild(el("h5", "vg-block-title", label));
+        var listEl = el("ul", "vg-block-list");
+        items.forEach(function (it) {
+          var li = el("li", "vg-block-item");
+          if (/(optional)/i.test(it)) {
+            li.appendChild(el("span", "vg-li-label", it));
+            li.appendChild(el("span", "vg-li-note", "Optional"));
+          } else {
+            li.textContent = it;
+          }
+          listEl.appendChild(li);
+        });
+        b.appendChild(listEl);
+        card.appendChild(b);
+      }
 
-    block("Required Lighting", data.requiredLighting);
-    block("Optional Lighting", data.optionalLighting);
-    block("Required Accessories", data.requiredAccessories);
-    block("Optional Accessories", data.optionalAccessories);
-    block("Allowed Decals", data.decals);
+      block("Required Lighting", data.requiredLighting);
+      block("Optional Lighting", data.optionalLighting);
+      block("Required Accessories", data.requiredAccessories);
+      block("Optional Accessories", data.optionalAccessories);
+      block("Allowed Decals", data.decals);
 
-    if (data.antennas.length) {
-      card.appendChild(el("h5", "vg-block-title", "Antennas"));
-      var aul = el("ul", "vg-block-list");
-      data.antennas.forEach(function (a) {
-        aul.appendChild(el("li", "vg-block-item", a));
+      if (data.antennas.length) {
+        card.appendChild(el("h5", "vg-block-title", "Antennas"));
+        var aul = el("ul", "vg-block-list");
+        data.antennas.forEach(function (a) {
+          aul.appendChild(el("li", "vg-block-item", a));
+        });
+        card.appendChild(aul);
+      }
+      if (data.notes && data.notes.length) {
+        card.appendChild(el("h5", "vg-block-title", "Notes"));
+        var nnote = el("ul", "vg-block-list");
+        data.notes.forEach(function (n) {
+          nnote.appendChild(el("li", "vg-block-item", n));
+        });
+        card.appendChild(nnote);
+      }
+    } else if (data.decals.length) {
+      card.appendChild(el("h5", "vg-block-title", "Allowed Decals"));
+      var decalsList = el("ul", "vg-block-list");
+      data.decals.forEach(function (decal) {
+        decalsList.appendChild(el("li", "vg-block-item", decal));
       });
-      card.appendChild(aul);
-    }
-    if (data.notes && data.notes.length) {
-      card.appendChild(el("h5", "vg-block-title", "Notes"));
-      var nnote = el("ul", "vg-block-list");
-      data.notes.forEach(function (n) {
-        nnote.appendChild(el("li", "vg-block-item", n));
-      });
-      card.appendChild(nnote);
+      card.appendChild(decalsList);
     }
     box.appendChild(card);
 
     // Gallery - one folder per vehicle, 5 angled views.
     var folderInfo = galleryFolder(secId, match.section.id, data.name);
     var galleryWrap = el("div", "vg-gallery");
-    galleryWrap.appendChild(el("h4", "vg-gallery-title", "Correctly Configured - " + data.name));
+    galleryWrap.appendChild(el("h4", "vg-gallery-title", match.car.placeholder ? "Boat Images" : "Correctly Configured - " + data.name));
     if (match.section.id === "LR") {
       galleryWrap.appendChild(el("span", "vg-gallery-variant", folderInfo.variant + " configuration"));
     }
