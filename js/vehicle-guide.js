@@ -831,6 +831,17 @@
       tier: "SGTP",
       cars: [
         {
+          name: "Falcon Advance XET 2022",
+          cls: "Pickup Truck",
+          lightbar: "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          requiredLighting: ["Rear Light Stick", "Grille Lights 1", "Grille Lights 2", "Plate Lights", "Side Window Lights", "Siderunners"],
+          optionalLighting: [],
+          requiredAccessories: ["Pushbar", "Wraparound Bar", "LED Spotlight"],
+          optionalAccessories: ["ALPR (Optional)", "Trailer Hitch (Optional)", "Low Profile Siren 1 / 2 (Optional)", "Passenger Spotlight (Optional)", "Laptop (Optional)", "Cage (Optional)","Bed Cover (Optional)","Toolbox (Optional)"],
+          decals: ["Black Decal"],
+          antennas: ["5G Antenna (Right)", "Long Range Antenna (Center)", "Low Profile Antenna (Front Center)"]
+        },
+        {
           name: "Falcon Advance 350 2020",
           cls: "Pickup Truck",
           lightbar: "Visor Lights / Legacy Lightbar / Valor Lightbar",
@@ -1081,6 +1092,12 @@
           optionalAccessories: ["N/A"],
           decals: ["N/A"],
           antennas: ["N/A"]
+        },
+        {
+          name: "Boat (Placeholder)",
+          cls: "Boat",
+          placeholder: true,
+          showWarning: true
         }
       ]
     }
@@ -1236,11 +1253,21 @@
     box.innerHTML = "";
 
     var card = el("div", "vg-detail-card");
+    if (match.car.showWarning) {
+      card.appendChild(el("div", "vg-warning-label", "WARNING"));
+    }
     var head = el("div", "vg-detail-head");
     head.appendChild(el("h4", "vg-detail-title", data.name));
     if (data.cls) head.appendChild(el("span", "vg-detail-cls", data.cls));
     head.appendChild(el("span", "vg-detail-tier", "Assigned at " + match.section.title));
     card.appendChild(head);
+
+    if (match.car.placeholder) {
+      box.appendChild(card);
+      goToStep(4);
+      box.scrollIntoView({ behavior: "smooth", block: "start" });
+      return;
+    }
 
     card.appendChild(el("h5", "vg-block-title", "Lightbar / Main Lights"));
     card.appendChild(el("p", "vg-block-line", data.lightbar));
@@ -1557,4 +1584,3 @@
     runInit();
   }
 })();
-
