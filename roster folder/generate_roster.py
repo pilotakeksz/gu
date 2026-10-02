@@ -33,25 +33,6 @@ def get_sheet_data():
     r.raise_for_status()
     return r.text
 
-def get_roblox_user_info(username):
-    url = "https://users.roblox.com/v1/usernames/users"
-    r = requests.post(
-        url,
-        json={"usernames": [username], "excludeBannedUsers": False},
-        timeout=10,
-    )
-    if r.status_code != 200:
-        return None
-    data = r.json()
-    if not data.get("data"):
-        return None
-    u = data["data"][0]
-    return {
-        "userId": u["id"],
-        "username": u["name"],  # <-- use username
-        "displayName": u.get("displayName", u["name"]),
-    }
-
 def get_avatar_url(user_id, size=420):
     url = (
         "https://thumbnails.roblox.com/v1/users/avatar-headshot"
@@ -66,6 +47,21 @@ def get_avatar_url(user_id, size=420):
     except Exception as e:
         print(f"  Avatar fetch error: {e}")
     return FALLBACK_AVATAR
+
+def get_roblox_user_info(username):
+    url = "https://users.roblox.com/v1/usernames/users"
+    r = requests.post(
+        url,
+        json={"usernames": [username], "excludeBannedUsers": False},
+        timeout=10,
+    )
+    if r.status_code != 200:
+        return None
+    data = r.json()
+    if not data.get("data"):
+        return None
+    user = data["data"][0]
+    return {"userId": user["id"], "username": user["name"], "displayName": user.get("displayName", user["name"])}
 
 def download_avatar(url, path):
     try:
@@ -144,18 +140,18 @@ def parse_roster(csv_text):
             rank = " ".join(filter(None, [_cell(row, 12), _cell(row, 13), _cell(row, 14)]))
             label, kind = _specialties(row)
 
-            info = get_roblox_user_info(username)
-            if not info:
+            info = None if current_section == "HIGH COMMAND" else get_roblox_user_info(username)
+            if current_section != "HIGH COMMAND" and not info:
                 continue
 
             out.append(
                 {
                     "callsign": callsign,
-                    "roblox": info["username"],  # <-- username
-                    "displayName": info["displayName"],
+                    "roblox": username if not info else info["username"],
+                    "displayName": username if not info else info["displayName"],
                     "rank": rank,
                     "section": current_section,
-                    "userId": info["userId"],
+                    "userId": info["userId"] if info else None,
                     "specialties": label,
                     "specialtiesKind": kind,
                 }
@@ -336,7 +332,7 @@ def main():
     hicom = [t for t in troopers if 1 <= _callsign_num(t["callsign"]) <= 6]
     regular_all = [t for t in troopers if _callsign_num(t["callsign"]) > 6]
 
-    # ---- HICOM ----
+    # ---- HICOM: keep the checked-in local avatar; do not query an API ----
     for t in hicom:
         name = _sanitize_filename(t["roblox"])
         rel = f"assets/avatars/{name}.png"
@@ -344,9 +340,7 @@ def main():
         if os.path.isfile(path):
             t["avatarPath"] = rel
             continue
-        print(f"  [HICOM] {t['callsign']} ({t['roblox']})")
-        url = get_avatar_url(t["userId"])
-        t["avatarPath"] = rel if download_avatar(url, path) else FALLBACK_AVATAR
+        t["avatarPath"] = FALLBACK_AVATAR
 
     # ---- Regular ----
     for i, t in enumerate(regular_all, 1):

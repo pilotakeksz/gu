@@ -50,48 +50,7 @@ function csvToRows(text) {
   return rows.map((cols) => cols.map((v) => v.trim()));
 }
 
-async function getRobloxUserInfo(username) {
-  try {
-    const response = await fetch("https://users.roblox.com/v1/usernames/users", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ usernames: [username], excludeBannedUsers: false })
-    });
-    if (!response.ok) return null;
-    const data = await response.json();
-    if (!data.data || data.data.length === 0) return null;
-    const user = data.data[0];
-    return {
-      userId: user.id,
-      username: user.name,
-      displayName: user.displayName || user.name
-    };
-  } catch (error) {
-    console.error("Error fetching user info:", error);
-    return null;
-  }
-}
-
-async function getRobloxAvatarUrl(userId, size = 256) {
-  if (!userId) return "https://tr.rbxcdn.com/6c6b8e6b7b7e7b7b7b7b7b7b7b7b7b/420/420/AvatarHeadshot/Png";
-  
-  const url = `https://thumbnails.roblox.com/v1/users/avatar-headshot?userIds=${userId}&size=${size}x${size}&format=Png&isCircular=false`;
-  try {
-    const response = await fetch(url, { timeout: 10000 });
-    if (!response.ok) throw new Error(`HTTP error: ${response.status}`);
-    
-    const data = await response.json();
-    if (data.data && data.data[0] && data.data[0].imageUrl) {
-      return data.data[0].imageUrl;
-    }
-  } catch (error) {
-    console.error("Error fetching avatar:", error);
-  }
-  
-  return "https://tr.rbxcdn.com/6c6b8e6b7b7e7b7b7b7b7b7b7b7b7b/420/420/AvatarHeadshot/Png";
-}
-
-async function parseRoster(csvText) {
+function parseRoster(csvText) {
   const rows = csvToRows(csvText);
   const sectionDividers = ["HIGH COMMAND", "SENIOR HIGH RANK", "HIGH RANK", "SERGEANTS PROGRAMME", "LOW RANKS"];
   let currentSection = "";
@@ -127,18 +86,13 @@ async function parseRoster(csvText) {
     if (!username || !callsign) continue;
 
     try {
-      const info = await getRobloxUserInfo(username);
-      if (!info) continue;
-
-      const avatarUrl = await getRobloxAvatarUrl(info.userId);
-
       troopers.push({
         callsign,
-        roblox: info.username,
-        displayName: info.displayName,
+        roblox: username,
+        displayName: username,
         rank,
         section: currentSection,
-        avatarUrl
+        avatarUrl: `assets/avatars/${username}.png`
       });
     } catch (error) {
       console.error(`Error processing trooper ${username}:`, error);
@@ -227,38 +181,9 @@ async function loadRoster() {
   const container = document.querySelector("[data-roster-list]");
   if (!container) return;
 
-  // Check cache
   const cached = localStorage.getItem(CACHE_KEY);
-  const expiry = localStorage.getItem(CACHE_EXPIRY_KEY);
-
-  if (cached && expiry && Date.now() < parseInt(expiry)) {
-    console.log("Using cached roster");
-    const troopers = JSON.parse(cached);
-    renderRoster(container, troopers);
-    return;
-  }
-
-  // Fetch fresh data
-  console.log("Fetching fresh roster data");
-  container.innerHTML = '<p class="muted">Loading roster...</p>';
-
-  try {
-    const sheetUrl = `https://docs.google.com/spreadsheets/d/${SHEET_ID}/gviz/tq?tqx=out:csv&gid=${SHEET_GID}`;
-    const response = await fetch(sheetUrl);
-    if (!response.ok) throw new Error("Failed to fetch sheet");
-
-    const csvText = await response.text();
-    const troopers = await parseRoster(csvText);
-
-    // Cache for 24 hours
-    localStorage.setItem(CACHE_KEY, JSON.stringify(troopers));
-    localStorage.setItem(CACHE_EXPIRY_KEY, (Date.now() + CACHE_DURATION).toString());
-
-    renderRoster(container, troopers);
-  } catch (error) {
-    console.error("Error loading roster:", error);
-    container.innerHTML = '<p class="muted">Unable to load roster. Check console for errors.</p>';
-  }
+  if (!cached) return;
+  renderRoster(container, JSON.parse(cached));
 }
 
 // Load roster when page loads

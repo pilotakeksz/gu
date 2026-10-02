@@ -61,23 +61,26 @@
     initNavSelector();
   }
 
-  /* Particles.js background — init after lib loaded */
+  /* Use particles.js when available and keep a local canvas fallback for offline pages. */
   function initParticles() {
-    if (typeof window.particlesJS !== "function") return;
     var el = document.getElementById("particles-js");
     if (!el) return;
+    if (typeof window.particlesJS !== "function") {
+      initCanvasParticles(el);
+      return;
+    }
     window.particlesJS("particles-js", {
       particles: {
-        number: { value: 50, density: { enable: true, value_area: 900 } },
+        number: { value: 70, density: { enable: true, value_area: 900 } },
         color: { value: ["#5b9cff", "#e4b44d", "#3a7fd4"] },
         shape: { type: "circle" },
-        opacity: { value: 0.28, random: true },
-        size: { value: 2, random: true },
+        opacity: { value: 0.48, random: true },
+        size: { value: 2.4, random: true },
         line_linked: {
           enable: true,
           distance: 130,
           color: "#5b9cff",
-          opacity: 0.12,
+          opacity: 0.24,
           width: 1
         },
         move: {
@@ -101,6 +104,41 @@
       },
       retina_detect: true
     });
+  }
+
+  function initCanvasParticles(el) {
+    var canvas = document.createElement("canvas");
+    var context = canvas.getContext("2d");
+    var particles = [];
+    var width;
+    var height;
+
+    function resize() {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+      particles = Array.from({ length: Math.min(90, Math.floor(width / 16)) }, function () {
+        return { x: Math.random() * width, y: Math.random() * height, vx: (Math.random() - 0.5) * 0.35, vy: (Math.random() - 0.5) * 0.35 };
+      });
+    }
+
+    function draw() {
+      context.clearRect(0, 0, width, height);
+      particles.forEach(function (particle, index) {
+        particle.x = (particle.x + particle.vx + width) % width;
+        particle.y = (particle.y + particle.vy + height) % height;
+        context.fillStyle = index % 3 === 0 ? "rgba(228, 180, 77, 0.7)" : "rgba(91, 156, 255, 0.7)";
+        context.beginPath();
+        context.arc(particle.x, particle.y, 2, 0, Math.PI * 2);
+        context.fill();
+      });
+      window.requestAnimationFrame(draw);
+    }
+
+    canvas.setAttribute("aria-hidden", "true");
+    el.appendChild(canvas);
+    resize();
+    window.addEventListener("resize", resize);
+    draw();
   }
 
   if (document.readyState === "loading") {
