@@ -1,0 +1,119 @@
+[
+  {
+    "title": "High Command",
+    "ranks": [
+      {
+        "name": "Commissioner",
+        "permission": ""
+      },
+      {
+        "name": "Deputy Commissioner",
+        "permission": ""
+      },
+      {
+        "name": "Assistant Commissioner First",
+        "permission": ""
+      },
+      {
+        "name": "Assistant Commissioner Second",
+        "permission": ""
+      },
+      {
+        "name": "Chief",
+        "permission": "Can host shift wave"
+      },
+      {
+        "name": "Assistant Chief",
+        "permission": "Can host M/D"
+      }
+    ]
+  },
+  {
+    "title": "Senior High Rank",
+    "ranks": [
+      {
+        "name": "Superintendent",
+        "permission": ""
+      },
+      {
+        "name": "Colonel",
+        "permission": ""
+      },
+      {
+        "name": "Lieutenant Colonel",
+        "permission": ""
+      },
+      {
+        "name": "Major",
+        "permission": "Discord Permissions"
+      }
+    ]
+  },
+  {
+    "title": "High Rank",
+    "ranks": [
+      {
+        "name": "Captain",
+        "permission": ""
+      },
+      {
+        "name": "First Lieutenant",
+        "permission": ""
+      },
+      {
+        "name": "Second Lieutenant",
+        "permission": "Can Infract"
+      }
+    ]
+  },
+  {
+    "title": "Sergeant Program",
+    "ranks": [
+      {
+        "name": "Master Sergeant",
+        "permission": ""
+      },
+      {
+        "name": "Sergeant First Class",
+        "permission": ""
+      },
+      {
+        "name": "Staff Sergeant",
+        "permission": ""
+      },
+      {
+        "name": "Sergeant",
+        "permission": "Access to FTP • Supervisor"
+      }
+    ]
+  },
+  {
+    "title": "Low Rank",
+    "ranks": [
+      {
+        "name": "Master Corporal",
+        "permission": ""
+      },
+      {
+        "name": "Corporal",
+        "permission": ""
+      },
+      {
+        "name": "Master Trooper",
+        "permission": ""
+      },
+      {
+        "name": "Senior Trooper",
+        "permission": ""
+      },
+      {
+        "name": "Trooper 1st Class",
+        "permission": "Can apply for subdivision(s)"
+      },
+      {
+        "name": "Trooper",
+        "permission": ""
+      }
+    ]
+  }
+]

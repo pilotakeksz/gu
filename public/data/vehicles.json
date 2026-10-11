@@ -1,0 +1,3126 @@
+{
+  "tiers": {
+    "HICOM": {
+      "decals": [
+        "Black Decal",
+        "White Decal",
+        "Grey Decal"
+      ],
+      "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+      "requiredLighting": [
+        "Rear Window Lights",
+        "Side Window Lights",
+        "Plate Lights",
+        "Fog Lights",
+        "Fender Lights",
+        "Grille Lights / Grill Lightbar",
+        "Small Siderunners / Siderunners"
+      ],
+      "optionalLighting": [
+        "LED Spotlight (Optional)",
+        "Passenger Spotlight (Optional)"
+      ],
+      "requiredAccessories": [
+        "Wraparound Bar"
+      ],
+      "optionalAccessories": [
+        "Pushbar (Optional)",
+        "ALPR (optional)",
+        "Low Profile Siren 1 / 2 (optional)"
+      ],
+      "notes": []
+    },
+    "SHR": {
+      "decals": [
+        "Black Decal"
+      ],
+      "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+      "requiredLighting": [
+        "Side Window Lights",
+        "Plate Lights",
+        "Fog Lights",
+        "Fender Lights",
+        "Grille Lights / Grill Lightbar",
+        "Small Siderunners / Siderunners",
+        "Rear Light Stick"
+      ],
+      "optionalLighting": [
+        "LED Spotlight (Optional)",
+        "Passenger Spotlight (Optional)"
+      ],
+      "requiredAccessories": [
+        "Pushbar",
+        "Wraparound Bar"
+      ],
+      "optionalAccessories": [
+        "ALPR (optional)",
+        "Low Profile Siren 1 / 2 (optional)"
+      ],
+      "notes": [
+        "HR/SHR may request HICOM White/Grey decal permissions."
+      ]
+    },
+    "HR": {
+      "decals": [
+        "Black Decal"
+      ],
+      "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+      "requiredLighting": [
+        "Side Window Lights",
+        "Plate Lights",
+        "Fog Lights",
+        "Fender Lights",
+        "Small Siderunners / Siderunners",
+        "Grille Lights / Grill Lightbar",
+        "Rear Light Stick"
+      ],
+      "optionalLighting": [],
+      "requiredAccessories": [
+        "Pushbar",
+        "Wraparound Bar"
+      ],
+      "optionalAccessories": [
+        "ALPR (optional)",
+        "Low Profile Siren 1 / 2 (optional)"
+      ],
+      "notes": []
+    },
+    "SGTP": {
+      "decals": [
+        "Black Decal"
+      ],
+      "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+      "requiredLighting": [
+        "Side Window Lights",
+        "Plate Lights",
+        "Fender Lights",
+        "Fog Lights",
+        "Small Siderunners / Siderunners",
+        "Grille Lights / Grill Lightbar",
+        "Rear Light Stick"
+      ],
+      "optionalLighting": [],
+      "requiredAccessories": [
+        "Pushbar",
+        "Wraparound Bar"
+      ],
+      "optionalAccessories": [
+        "ALPR (optional)",
+        "Low Profile Siren 1 / 2 (optional)"
+      ],
+      "notes": []
+    },
+    "LR": {
+      "decals": [
+        "Black Decal"
+      ],
+      "lightbar": "Visor Lights / Legacy Lightbar",
+      "requiredLighting": [
+        "Side Window Lights",
+        "Plate Lights",
+        "Fender Lights",
+        "Fog Lights",
+        "Small Siderunners",
+        "Grille Lights / Grill Lightbar",
+        "Rear Light Stick"
+      ],
+      "optionalLighting": [],
+      "requiredAccessories": [
+        "Pushbar",
+        "Wraparound Bar"
+      ],
+      "optionalAccessories": [
+        "ALPR (optional)",
+        "Low Profile Siren 1 / 2 (optional)"
+      ],
+      "notes": []
+    }
+  },
+  "ranks": [
+    {
+      "id": "HICOM",
+      "title": "High Command",
+      "short": "HICOM",
+      "order": 5,
+      "intro": "Full fleet / M/D vehicles.",
+      "tier": "HICOM",
+      "cars": [
+        {
+          "name": "Stuttgart Runner Prisoner Transport 2020",
+          "cls": "Van",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Upper lights",
+            "Grille Lights",
+            "Side Lighting",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Flood Lights"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Front Right)",
+            "Long Range Antenna (Rear)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Emergency Services Falcon Advance 2020",
+          "cls": "Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Front Bumper Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Flood Lights"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2011",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Fog Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon eStallion 2024",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Rear Trim Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Traveller PPV 2022",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights",
+            "Grille Lights 1",
+            "Mirror Lights",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Side Window Lights",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Front Plate (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Platoro PPV 2019",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Rear Right)",
+            "Long Range Antenna (Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2024",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights / Grille Lightstick",
+            "Fog Lights",
+            "Plate Lights",
+            "Headlight Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2021",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights 1 / 2",
+            "Fog Lights",
+            "Grille Lights 1 / 2 / 3",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Mirror Lights",
+            "Pillar Lights",
+            "Fender Lights / Side Window Lights",
+            "Siderunners",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Pushbar Lights 3"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)",
+            "Front Plate (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Advance 350 2020",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2013",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2019",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center / Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Pueblo Pursuit 2020",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Fender Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Rear Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2018",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2015",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Fog Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Antelope 1994",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2008",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar"
+          ],
+          "optionalAccessories": [
+            "ALPR (optional)",
+            "Trailer Hitch (optional)",
+            "Low Profile Siren 1 / 2 (optional)",
+            "Passenger Spotlight (optional)",
+            "Laptop (optional)",
+            "Cage (optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Sedan 2017",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Prime Eques Interceptor 2003",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Fog Lights",
+            "Plate Lights",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal / Silver Decal / White Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Equipment Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Flood Light Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Speed Radar Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SHR",
+      "title": "Senior High Rank",
+      "short": "SHR",
+      "order": 4,
+      "intro": "May request HICOM White / Silver decals.",
+      "tier": "SHR",
+      "cars": [
+        {
+          "name": "Bullhorn Prancer Pursuit 2011",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Fog Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon eStallion 2024",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Rear Trim Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Traveller PPV 2022",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights",
+            "Grille Lights 1",
+            "Mirror Lights",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Side Window Lights",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Front Plate (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Platoro PPV 2019",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Rear Right)",
+            "Long Range Antenna (Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2024",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights / Grille Lightstick",
+            "Fog Lights",
+            "Plate Lights",
+            "Headlight Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2021",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights 1 / 2",
+            "Fog Lights",
+            "Grille Lights 1 / 2 / 3",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Mirror Lights",
+            "Pillar Lights",
+            "Fender Lights / Side Window Lights",
+            "Siderunners",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Pushbar Lights 3"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)",
+            "Front Plate (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Advance 350 2020",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2013",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2019",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center / Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Pueblo Pursuit 2020",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Fender Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Rear Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2018",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2015",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Fog Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Antelope 1994",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2008",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar"
+          ],
+          "optionalAccessories": [
+            "ALPR (optional)",
+            "Trailer Hitch (optional)",
+            "Low Profile Siren 1 / 2 (optional)",
+            "Passenger Spotlight (optional)",
+            "Laptop (optional)",
+            "Cage (optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Sedan 2017",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Prime Eques Interceptor 2003",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Fog Lights",
+            "Plate Lights",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Equipment Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Flood Light Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Speed Radar Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "HR",
+      "title": "High Rank",
+      "short": "HR",
+      "order": 3,
+      "intro": "Field command vehicles.",
+      "tier": "HR",
+      "cars": [
+        {
+          "name": "Falcon Traveller PPV 2022",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights",
+            "Grille Lights 1",
+            "Mirror Lights",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Side Window Lights",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Front Plate (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Platoro PPV 2019",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Rear Right)",
+            "Long Range Antenna (Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2024",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights / Grille Lightstick",
+            "Fog Lights",
+            "Plate Lights",
+            "Headlight Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2021",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Cargo Lights 1 / 2",
+            "Fog Lights",
+            "Grille Lights 1 / 2 / 3",
+            "Plate Lights 1 / 2",
+            "Rear Bumper Lights",
+            "Mirror Lights",
+            "Pillar Lights",
+            "Fender Lights / Side Window Lights",
+            "Siderunners",
+            "Pushbar Lights 1",
+            "Pushbar Lights 2",
+            "Pushbar Lights 3"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight",
+            "Pushbar Floodlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)",
+            "Front Plate (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Back Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Advance 350 2020",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2013",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2019",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center / Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Pueblo Pursuit 2020",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Fender Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Rear Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2018",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2015",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Fog Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Antelope 1994",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2008",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar"
+          ],
+          "optionalAccessories": [
+            "ALPR (optional)",
+            "Trailer Hitch (optional)",
+            "Low Profile Siren 1 / 2 (optional)",
+            "Passenger Spotlight (optional)",
+            "Laptop (optional)",
+            "Cage (optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Sedan 2017",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Prime Eques Interceptor 2003",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Fog Lights",
+            "Plate Lights",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Equipment Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "Black Decal / Grey Decal"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Flood Light Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Speed Radar Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "SGTP",
+      "title": "Sergeant Program",
+      "short": "SGTP",
+      "order": 2,
+      "intro": "Supervisory patrol vehicles.",
+      "tier": "SGTP",
+      "cars": [
+        {
+          "name": "Falcon Advance XET 2022",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights 1",
+            "Pushbar Lights 1",
+            "Grille Lights 2",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Pushbar Floodlight",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)",
+            "Bed Cover (Optional)",
+            "Toolbox (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Advance 350 2020",
+          "cls": "Pickup Truck",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2013",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Utility 2019",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center / Rear Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Pueblo Pursuit 2020",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Fender Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Rear Center / Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2018",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2015",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Fog Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Antelope 1994",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2008",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar"
+          ],
+          "optionalAccessories": [
+            "ALPR (optional)",
+            "Trailer Hitch (optional)",
+            "Low Profile Siren 1 / 2 (optional)",
+            "Passenger Spotlight (optional)",
+            "Laptop (optional)",
+            "Cage (optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Sedan 2017",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Prime Eques Interceptor 2003",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar / Valor Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Fog Lights",
+            "Plate Lights",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Equipment Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Flood Light Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Speed Radar Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "LR",
+      "title": "Low Rank",
+      "short": "LR",
+      "order": 1,
+      "intro": "Standard black decaled patrol fleet.",
+      "tier": "LR",
+      "cars": [
+        {
+          "name": "Chevlon Camion PPV 2018",
+          "cls": "SUV",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Trailer Hitch (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Bullhorn Prancer Pursuit 2015",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Fog Lights",
+            "Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Antelope 1994",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Chevlon Camion PPV 2008",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fog Lights",
+            "Grille Lights",
+            "Pillar Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar"
+          ],
+          "optionalAccessories": [
+            "ALPR (optional)",
+            "Trailer Hitch (optional)",
+            "Low Profile Siren 1 / 2 (optional)",
+            "Passenger Spotlight (optional)",
+            "Laptop (optional)",
+            "Cage (optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Interceptor Sedan 2017",
+          "cls": "Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Light Stick",
+            "Fender Lights",
+            "Grille Lights",
+            "Lower Grille Lights",
+            "Plate Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Falcon Prime Eques Interceptor 2003",
+          "cls": "Classic Sedan",
+          "lightbar": "Visor Lights / Legacy Lightbar",
+          "requiredLighting": [
+            "Rear Window Light Stick",
+            "Fog Lights",
+            "Plate Lights",
+            "Grille Lights",
+            "Side Window Lights",
+            "Small Siderunners"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "LED Spotlight"
+          ],
+          "optionalAccessories": [
+            "ALPR (Optional)",
+            "Low Profile Siren 1 / 2 (Optional)",
+            "Passenger Spotlight (Optional)",
+            "Laptop (Optional)",
+            "Cage (Optional)"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "5G Antenna (Right)",
+            "Long Range Antenna (Center)",
+            "Low Profile Antenna (Front Center)"
+          ]
+        },
+        {
+          "name": "Equipment Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "Black Decal"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Flood Light Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Speed Radar Trailer",
+          "cls": "Trailer",
+          "lightbar": "N/A",
+          "requiredLighting": [
+            "N/A"
+          ],
+          "optionalLighting": [],
+          "requiredAccessories": [
+            "N/A"
+          ],
+          "optionalAccessories": [
+            "N/A"
+          ],
+          "decals": [
+            "N/A"
+          ],
+          "antennas": [
+            "N/A"
+          ]
+        },
+        {
+          "name": "Boat",
+          "cls": "Boat",
+          "placeholder": true,
+          "decals": [
+            "Black Decal"
+          ],
+          "showWarning": true,
+          "showGallery": true
+        }
+      ]
+    }
+  ],
+  "divisions": [
+    {
+      "id": "REGULAR",
+      "title": "Regular Subdued",
+      "intro": "Standard Ghost Unit vehicle guide.",
+      "separate": false
+    },
+    {
+      "id": "HSPU",
+      "title": "High Speed Pursuit Unit",
+      "intro": "Separate HSPU ranks and vehicle guide.",
+      "separate": true
+    },
+    {
+      "id": "SRT",
+      "title": "Special Response Team",
+      "intro": "Separate SRT ranks and vehicle guide.",
+      "separate": true
+    }
+  ],
+  "separate": {
+    "HSPU": {
+      "ranks": [
+        {
+          "name": "Probationary Officer",
+          "cars": [
+            "Bullhorn Prancer Pursuit 2015"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Officer First+",
+          "cars": [
+            "Chevlon Amigo ZLR 2011"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Senior Officer+",
+          "cars": [
+            "Bullhorn Prancer Pursuit 2011"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "LED Spotlights",
+            "Flood Lights",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Head Officer+",
+          "cars": [
+            "Falcon Stallion 350 2015"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "LED Spotlights",
+            "Flood Lights",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Director+",
+          "cars": [
+            "Bullhorn Prancer Pursuit Widebody 2020"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "LED Spotlights",
+            "Flood Lights",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "High Command",
+          "cars": [
+            "Chevlon Corbeta RZR 2014"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Pushbar",
+            "Wraparound Bar",
+            "Grappler",
+            "ALPR (optional)",
+            "LED Spotlights",
+            "Flood Lights",
+            "Reverse Flashers"
+          ],
+          "decals": [
+            "Black Decal",
+            "White Decal",
+            "Grey Decal"
+          ]
+        }
+      ],
+      "antennas": [
+        "5G Antenna (Right)",
+        "Long Range Antenna (Center)",
+        "Low Profile Antenna (Front Center)"
+      ],
+      "note": "Grappler: see handbook for use."
+    },
+    "SRT": {
+      "ranks": [
+        {
+          "name": "Probationary Operative+",
+          "cars": [
+            "2008 Chevlon Camion PPV",
+            "2015 Bullhorn Prancer Pursuit",
+            "Equipment Trailer"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Trailer Hitch",
+            "LED Spotlights",
+            "ALPR (optional)",
+            "Low Profile Siren (optional)",
+            "Pushbar"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Operative+",
+          "cars": [
+            "2019 Chevlon Plotoro"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Trailer Hitch",
+            "LED Spotlights",
+            "ALPR (optional)",
+            "Low Profile Siren (optional)",
+            "Pushbar"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Senior Operative+",
+          "cars": [
+            "2020 Emergency Services Falcon Advance+",
+            "2011 SWAT Truck"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Trailer Hitch",
+            "LED Spotlights",
+            "Flood Lights",
+            "ALPR (optional)",
+            "Low Profile Siren (optional)",
+            "Pushbar"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        },
+        {
+          "name": "Head Operative+",
+          "cars": [
+            "2024 Falcon Interceptor Utility"
+          ],
+          "lighting": [
+            "Side Window Lights",
+            "Plate Lights",
+            "Front Bumper Lights",
+            "Fender Lights",
+            "Fog Lights",
+            "Small Siderunners",
+            "Siderunners",
+            "Grill Lights / Grill Lightbar"
+          ],
+          "accessories": [
+            "Trailer Hitch",
+            "LED Spotlights",
+            "Flood Lights",
+            "ALPR (optional)",
+            "Low Profile Siren (optional)",
+            "Pushbar"
+          ],
+          "decals": [
+            "Black Decal"
+          ]
+        }
+      ],
+      "antennas": [
+        "5G Antenna - Right (Front Right on ES Falcon Advance+)",
+        "Low Profile Antenna - Front Center",
+        "Long Range Antenna - Rear Center/Trunk Center (Rear on ES Falcon Advance+)"
+      ],
+      "note": "2011 SWAT Truck: Senior Operative+ when 4+ SRT units are available, with Chief+ permission."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "pages": 8,
+  "handbook_sections": 13,
+  "command_tiers": 5,
+  "command_roles": 23,
+  "roster_members": 51,
+  "gallery_entries": 9,
+  "available_downloaded_gallery_and_vehicle_images": 169,
+  "missing_avatars": [
+    "Ilcolega02",
+    "InvasionElectro",
+    "Maullru2011"
+  ],
+  "missing_vehicle_images": "Five higher-rank Boat reference images",
+  "original_url": "https://fhp-ghost-unit.vercel.app/index.html",
+  "captured_date": "2026-10-03"
+}

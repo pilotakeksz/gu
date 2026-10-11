@@ -1,0 +1,410 @@
+[
+  {
+    "name": "Tuna",
+    "rank": "Commissioner",
+    "callsign": "GU-001",
+    "specialties": "HSPU • SRT • JSOC",
+    "group": "High Command",
+    "avatar": "/assets/avatars/thetunainme.png"
+  },
+  {
+    "name": "vigoprosniper",
+    "rank": "Deputy Commissioner",
+    "callsign": "GU-002",
+    "specialties": "",
+    "group": "High Command",
+    "avatar": "/assets/avatars/vigoprosniper.png"
+  },
+  {
+    "name": "Ilcolega02",
+    "rank": "Assistant Commissioner First",
+    "callsign": "GU-003",
+    "specialties": "HSPU • SRT • JSOC",
+    "group": "High Command",
+    "avatar": "/assets/avatars/ilcolega02.png"
+  },
+  {
+    "name": "InvasionElectro",
+    "rank": "Assistant Commissioner Second",
+    "callsign": "GU-004",
+    "specialties": "HSPU • SRT • JSOC",
+    "group": "High Command",
+    "avatar": "/assets/avatars/invasionelectro.png"
+  },
+  {
+    "name": "Maullru2011",
+    "rank": "District Commander",
+    "callsign": "GU-006",
+    "specialties": "HSPU • SRT • JSOC",
+    "group": "High Command",
+    "avatar": "/assets/avatars/maullru.png"
+  },
+  {
+    "name": "wilmer5681",
+    "rank": "Superintendent",
+    "callsign": "GU-010",
+    "specialties": "HSPU • SRT",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/2288871554.png"
+  },
+  {
+    "name": "Ferenc777777",
+    "rank": "Discord Mod",
+    "callsign": "GU-011",
+    "specialties": "HSPU",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/2067387795.png"
+  },
+  {
+    "name": "xPatrykx200",
+    "rank": "Discord Mod",
+    "callsign": "GU-012",
+    "specialties": "HSPU • SRT",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/1222788032.png"
+  },
+  {
+    "name": "abc123stove",
+    "rank": "Superintendent",
+    "callsign": "GU-013",
+    "specialties": "HSPU • SRT",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/1998785471.png"
+  },
+  {
+    "name": "Saltlife2267",
+    "rank": "Discord Mod",
+    "callsign": "GU-014",
+    "specialties": "",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/287671402.png"
+  },
+  {
+    "name": "prokingisme1",
+    "rank": "Colonel",
+    "callsign": "GU-015",
+    "specialties": "HSPU",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/2351556544.png"
+  },
+  {
+    "name": "777bestofall",
+    "rank": "Trooper Of The Week",
+    "callsign": "GU-016",
+    "specialties": "",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/3693251757.png"
+  },
+  {
+    "name": "rade9900",
+    "rank": "State Trooper",
+    "callsign": "GU-017",
+    "specialties": "",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/1288411728.png"
+  },
+  {
+    "name": "Kricoloveskfc",
+    "rank": "Colonel",
+    "callsign": "GU-018",
+    "specialties": "HSPU • SRT",
+    "group": "Senior High Rank",
+    "avatar": "/assets/avatars/2944456093.png"
+  },
+  {
+    "name": "Carg_2019",
+    "rank": "Lieutenant II",
+    "callsign": "GU-020",
+    "specialties": "HSPU",
+    "group": "High Rank",
+    "avatar": "/assets/avatars/2711072226.png"
+  },
+  {
+    "name": "Iamkaren_andihateU",
+    "rank": "Lieutenant I",
+    "callsign": "GU-023",
+    "specialties": "HSPU",
+    "group": "High Rank",
+    "avatar": "/assets/avatars/2980817898.png"
+  },
+  {
+    "name": "phdtx1",
+    "rank": "Lieutenant I",
+    "callsign": "GU-025",
+    "specialties": "HSPU",
+    "group": "High Rank",
+    "avatar": "/assets/avatars/187430106.png"
+  },
+  {
+    "name": "Ibrokethetown",
+    "rank": "Staff Sergeant",
+    "callsign": "GU-036",
+    "specialties": "HSPU",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/882387376.png"
+  },
+  {
+    "name": "darthyoda244",
+    "rank": "Sergeant First Class",
+    "callsign": "GU-037",
+    "specialties": "",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/2489315527.png"
+  },
+  {
+    "name": "Huntergaming217",
+    "rank": "Staff Sergeant",
+    "callsign": "GU-038",
+    "specialties": "",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/2660652343.png"
+  },
+  {
+    "name": "Lil_Mclaren3868",
+    "rank": "Sergeant",
+    "callsign": "GU-039",
+    "specialties": "HSPU • SRT",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/1691191888.png"
+  },
+  {
+    "name": "DDEETTHH_io",
+    "rank": "Sergeant First Class",
+    "callsign": "GU-040",
+    "specialties": "",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/1658838872.png"
+  },
+  {
+    "name": "HUPPUFX",
+    "rank": "Staff Sergeant",
+    "callsign": "GU-041",
+    "specialties": "HSPU",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/1702974615.png"
+  },
+  {
+    "name": "zibtronn",
+    "rank": "Master Sergeant",
+    "callsign": "GU-051",
+    "specialties": "HSPU",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/827375103.png"
+  },
+  {
+    "name": "xF3rfyx",
+    "rank": "Staff Sergeant",
+    "callsign": "GU-055",
+    "specialties": "HSPU",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/2033422576.png"
+  },
+  {
+    "name": "n3bula_xr64",
+    "rank": "Sergeant",
+    "callsign": "GU-232",
+    "specialties": "SRT",
+    "group": "Sergeants Program",
+    "avatar": "/assets/avatars/7183369447.png"
+  },
+  {
+    "name": "LF_V12",
+    "rank": "Master Corporal",
+    "callsign": "GU-062",
+    "specialties": "HSPU",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/2917086894.png"
+  },
+  {
+    "name": "Hben_28",
+    "rank": "Trooper 1st Class",
+    "callsign": "GU-064",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1602922192.png"
+  },
+  {
+    "name": "Itsm3_cArTeR",
+    "rank": "Master Trooper",
+    "callsign": "GU-065",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1188460778.png"
+  },
+  {
+    "name": "guntrumtp",
+    "rank": "Master Trooper",
+    "callsign": "GU-067",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/3170385998.png"
+  },
+  {
+    "name": "Bluenight_226",
+    "rank": "Senior Trooper",
+    "callsign": "GU-068",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/7144706686.png"
+  },
+  {
+    "name": "lovethatlife21",
+    "rank": "Trooper 1st Class",
+    "callsign": "GU-071",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1498225321.png"
+  },
+  {
+    "name": "Jamminju710",
+    "rank": "Master Corporal",
+    "callsign": "GU-105",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/2688305282.png"
+  },
+  {
+    "name": "mastherobloxking",
+    "rank": "Trooper",
+    "callsign": "GU-110",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1458400815.png"
+  },
+  {
+    "name": "Reece031612",
+    "rank": "Trooper 1st Class",
+    "callsign": "GU-111",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1723540970.png"
+  },
+  {
+    "name": "TokyoSypher",
+    "rank": "Trooper 1st Class",
+    "callsign": "GU-145",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/2363197631.png"
+  },
+  {
+    "name": "Bidfz124",
+    "rank": "Trooper",
+    "callsign": "GU-156",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/11032535352.png"
+  },
+  {
+    "name": "shan31pat",
+    "rank": "Master Trooper",
+    "callsign": "GU-162",
+    "specialties": "HSPU",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1046650743.png"
+  },
+  {
+    "name": "Amiable_AJ",
+    "rank": "Trooper 1st Class",
+    "callsign": "Amiable_AJ",
+    "specialties": "",
+    "group": "Low Rank",
+    "avatar": "/assets/avatars/1141129134.png"
+  },
+  {
+    "name": "ElectricApeiros",
+    "rank": "State Trooper",
+    "callsign": "GU-061",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/102081649.png"
+  },
+  {
+    "name": "Unk0wnS0ULLX",
+    "rank": "State Trooper",
+    "callsign": "GU-063",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/2641972480.png"
+  },
+  {
+    "name": "xXYEAH_COOLXx",
+    "rank": "State Trooper",
+    "callsign": "GU-066",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/1699748395.png"
+  },
+  {
+    "name": "AmNotHuman1234",
+    "rank": "State Trooper",
+    "callsign": "GU-103",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/1461901560.png"
+  },
+  {
+    "name": "Angelelle203",
+    "rank": "State Trooper",
+    "callsign": "GU-112",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/7545513212.png"
+  },
+  {
+    "name": "pc_ddp1",
+    "rank": "State Trooper",
+    "callsign": "GU-121",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/1291993778.png"
+  },
+  {
+    "name": "mkgod200",
+    "rank": "State Trooper",
+    "callsign": "GU-158",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/1260898700.png"
+  },
+  {
+    "name": "TimmyTheLegend12233",
+    "rank": "State Trooper",
+    "callsign": "GU-212",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/4395537698.png"
+  },
+  {
+    "name": "pooppqan",
+    "rank": "State Trooper",
+    "callsign": "GU-213",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/4499439765.png"
+  },
+  {
+    "name": "Abutiger305",
+    "rank": "State Trooper",
+    "callsign": "GU-234",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/1626454240.png"
+  },
+  {
+    "name": "andreidaniel756",
+    "rank": "State Trooper",
+    "callsign": "andreidaniel756",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/2493787723.png"
+  },
+  {
+    "name": "Krugertjie19539",
+    "rank": "State Trooper",
+    "callsign": "Krugertjie19539",
+    "specialties": "",
+    "group": "Cadet",
+    "avatar": "/assets/avatars/5722928801.png"
+  }
+]
