@@ -94,6 +94,13 @@ const Layout: FC = () => {
         <Link to="/handbook.html" className="footer-link">
           Handbook <ArrowUpRight size={18} />
         </Link>
+        <section className="footer-contributors" aria-labelledby="footer-contributors-title">
+          <h2 id="footer-contributors-title">Contributors</h2>
+          <ul>
+            <li>Tuna 🐟</li>
+            <li>DDEETTHH_io</li>
+          </ul>
+        </section>
         <div className="footer-bottom">
           <span>© {new Date().getFullYear()} FHP GHOST UNIT</span>
           <span>A DIVISION OF FSRP</span>

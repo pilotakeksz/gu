@@ -564,6 +564,36 @@ main:focus,
   border-bottom: 1px solid var(--accent);
   padding-bottom: 5px;
 }
+.footer-contributors {
+  flex-basis: 100%;
+  border-top: 1px solid var(--line-dark);
+  padding-top: 22px;
+}
+.footer-contributors h2 {
+  margin: 0;
+  font-family: var(--display);
+  font-size: 22px;
+  font-weight: 500;
+}
+.footer-contributors p {
+  margin: 8px 0 14px;
+  color: var(--text-muted);
+  font-size: 13px;
+}
+.footer-contributors ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 22px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-contributors a {
+  color: var(--text-primary);
+  font-size: 13px;
+  text-decoration-color: var(--accent);
+  text-underline-offset: 4px;
+}
 .footer-bottom {
   flex-basis: 100%;
   display: flex;
